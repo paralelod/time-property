@@ -1,8 +1,0 @@
-_dist
-_dev/_site
-_build/bower
-_build/vendors
-node_modules
-.sass-cache
-.publish
-.vscode
