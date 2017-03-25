@@ -1,0 +1,14 @@
+.dc-time{
+    .dc-nome{
+         background: blue;
+    color: white;
+    width: 80%;
+    margin: auto;
+    z-index: 25;
+    position: absolute;
+    bottom: .5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: .5rem 0;
+    }
+}
