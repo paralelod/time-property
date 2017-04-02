@@ -1,5 +1,6 @@
 
 //design
+var designLinks = './_design/links';
 var designSrc = './_design/layout.sketch';
 
 // config
@@ -12,13 +13,13 @@ var dataSrc = devSrc+'/_data';
 
 
 //build 
-var buildSrc = './_build';
-var imgsSrc = buildSrc+'/_img';
-var sassSrc = buildSrc+'/_sass';
-var scriptSrc = buildSrc+'/_scripts';
-var scriptSrcInit = buildSrc+'/_scripts/_init';
-var bowerSrc = buildSrc+'/bower';
-var themeSrc = './_build/_themes/time-property';
+
+var themeSrc = './_theme/jellykit';
+var imgsSrc = themeSrc+'/_img';
+var sassSrc = themeSrc+'/_sass';
+var scriptSrc = themeSrc+'/_scripts';
+var scriptSrcInit = themeSrc+'/_scripts/_init';
+var bowerSrc = './bower_components';
 var themeAssets = themeSrc+'/assets';
 
 //dist
@@ -46,35 +47,38 @@ module.exports = {
 
   theme: {
     includes: themeSrc+'/_includes/**/*.*',
-    layouts: themeSrc+'/style.json'
+    layouts: themeSrc+'/_layouts/**/*.*'
   },
 
   //--------- manifest ----------//
 
   manifest: {
+    manifestDest: dataSrc+'/manifest.json',
     styleBundle: 'style',
-    styleDest: dataSrc+'/style.json',
+    // styleDest: dataSrc+'/style.json',
     scriptBundle: 'script',
-    scriptDest: dataSrc+'/script.json',
+    // scriptDest: dataSrc+'/script.json',
     imagesBundle: 'images',
-    imagesDest: dataSrc+'/image.json',
+    imagesDest: dataSrc+'/images.json',
     jekyllBundle: 'jekyll',
-    jekyllDest: dataSrc+'/jekyll.json'
+    // jekyllDest: dataSrc+'/jekyll.json'
   },
 
   //--------- sketch app ----------//
 
   sketch: {
     sketchSrc: designSrc,
-    sketchImgDest: imgsSrc
+    sketchImgDest: imgsSrc,
+    designAssets: designLinks+'/'
   },
+  
   
   //--------- images ----------//
   
    images: {
     // responsive resize
 
-    imgSrc: imgsSrc,
+    imgSrc: imgsSrc+'/',
     imgSrcResp: imgsSrc+'/responsive/',
     imgDest:themeAssets+'/img/',
 
@@ -116,7 +120,7 @@ module.exports = {
   //--------- sass ----------//
 
   sass: {
-    sassStyleSrc: sassSrc+'/style.scss',
+    sassStyleSrc: sassSrc+'/00-MAIN.scss',
     cssDist: 'style.css',
     cssPathDist: themeAssets+'/css/',
     cssClean: themeAssets+'/css/',
@@ -128,36 +132,43 @@ module.exports = {
 
   script: {
 
-      headSrc: [
-        bowerSrc+'/picturePolyfill/dist/picturefill.js'
-      ],
+      // headSrc: [
+      //   bowerSrc+'/picturefill-master/dist/picturefill.js'
+      // ],
 
-      // head js dist
-      scriptHeadDist:'head.js',
+      // // head js dist
+      // scriptHeadDist:'head.js',
 
       // scripts src
       scriptsSrc: [
+
         bowerSrc+'/foundation/js/vendor/jquery.js' ,
         bowerSrc+'/foundation/js/vendor/modernizr.js' ,
+         bowerSrc+'/picturePolyfill/dist/picturePollyfill.min.js',
         bowerSrc+'/foundation/js/vendor/fastclick.js' ,
         bowerSrc+'/foundation/js/foundation.min.js',
-        bowerSrc+'/jquery.easing/js/jquery.easing.min.js' ,
-        scriptSrc+'/my_scripts/**/'
-        // bowerSrc+'/imagesloaded/imagesloaded.pkgd.min.js',
-        // bowerSrc+'/isotope/dist/isotope.pkgd.min.js',
-        // bowerSrc+'/fullpage.js/dist/jquery.fullpage.min.js',
-        // bowerSrc+'/FitVids.js-master/jquery.fitvids.js',
-        // bowerSrc+'/swipebox-master/src/js/jquery.swipebox.min.js',
-        // bowerSrc+'/slick-carousel/slick/slick.min.js' ,
-        // bowerSrc+'/aos/dist/aos.js',
-        // bowerSrc+'/animsition-master/animsition.min.js',
-        // scriptSrcInit+'/_init/animsition_init.js',
-        // scriptSrcInit+'/_init/aos_init.js',
-        // scriptSrcInit+'/_init/fitivid_init.js',
-        // scriptSrcInit+'/_init/foundation_init.js',
-        // scriptSrcInit+'/_init/fullpage_init.js',
-        // scriptSrcInit+'/_init/isotope_init.js',
-        // scriptSrcInit+'/_init/swipebox_init.js',
+        
+        //nav
+        bowerSrc+'/jquery.easing/js/jquery.easing.min.js',
+
+        //anim
+        bowerSrc+'/aos/dist/aos.js',
+        
+        // media
+        bowerSrc+'/lazyloadxt/dist/jquery.lazyloadxt.extra.min.js',
+        bowerSrc+'/fitvids/jquery.fitvids.js',
+        bowerSrc+'/slick-carousel/slick/slick.min.js',
+        bowerSrc+'/swipebox/src/js/jquery.swipebox.min.js',
+
+        // gallery
+        bowerSrc+'/imagesloaded/imagesloaded.pkgd.min.js',
+        bowerSrc+'/isotope/dist/isotope.pkgd.min.js',
+        bowerSrc+'/velocity/velocity.min.js',
+        bowerSrc+'/velocity/velocity.ui.min.js',
+        
+        //ini + my scripts
+        scriptSrc+'/**/**/*.js'
+
       ],
       //js dist
       scriptsDist: 'script.js',
@@ -206,12 +217,21 @@ module.exports = {
   //--------- watch ----------//
   
   watch: {
-    jekyll: devSrc+'/**/**/*.*',
+    jekyll: [
+      devSrc+'/_config.yml',
+      devSrc+'/_data/*.*',
+      devSrc+'/*.html',
+      devSrc+'/**/**/*.md'
+      ],
     yml: configSrc+'/**/**/*.*',
     imgs: imgsSrc+'/**/**/*.*',
     scripts: scriptSrc+'/**/*.*',
     sass: sassSrc+'/**/**/*.*',
-    theme: themeSrc+'/**/**/*.*'
+    theme: [
+      themeSrc+'/assets/**/**/**/**/*.*',
+      themeSrc+'/_includes/**/**/**/**/*.*',
+      themeSrc+'/_layouts/**/**/**/**/*.*'
+    ]
   }
 
 };

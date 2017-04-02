@@ -12,6 +12,7 @@
     "browser-sync": "^2.11.1",
     "gulp": "^3.9.0",
     "gulp-asset-manifest": "0.0.6",
+    "gulp-autoprefixer": "^3.1.1",
     "gulp-clean": "^0.3.1",
     "gulp-concat": "^2.6.0",
     "gulp-gh-pages": "^0.5.4",
@@ -21,8 +22,10 @@
     "gulp-image-resize": "^0.7.1",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.2.0",
+    "gulp-sftp": "^0.1.5",
     "gulp-shell": "^0.5.2",
     "gulp-sketch": "^1.0.3",
+    "gulp-ssh": "^0.6.0",
     "gulp-uglify": "^1.5.2",
     "gulp-yaml-merge": "^1.0.1",
     "lodash": "^4.17.4",
@@ -32,8 +35,5 @@
   },
   "scripts": {
     "postinstall": "sh sh/start.sh"
-  },
-  "dependencies": {
-    "require-dir": "^0.3.1"
   }
 }

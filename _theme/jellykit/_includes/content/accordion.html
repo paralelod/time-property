@@ -1,0 +1,63 @@
+<section id="experiencia" class="padding-5rem-top-bottom">
+   
+    <div class="row">
+        <div class="small-12 text-center" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+            <h1>Accordion</h1>
+        </div>
+    </div>
+</section>
+<section class="padding-5rem-top-bottom">
+    <div class="row">
+        <div class="small-12 columns">
+            <ul class="tabs show-for-medium-up" data-tab>
+                <li class="tab-title active"><a href="#panel1">Tab / Accordion 1</a></li>
+                <li class="tab-title"><a href="#panel2">Tab / Accordion 2</a></li>
+                <li class="tab-title"><a href="#panel3">Tab / Accordion 3</a></li>
+            </ul>
+            <dl class="accordion" data-accordion>
+
+                <dd class="accordion-navigation">
+                <a href="#panel1" class="show-for-small-only">Accordion 1</a>
+                <div id="panel1" class="content active">
+                    <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3" data-equalizer>
+                        {% for entrega in site.data.entregas limit: 3 %}
+                        <li>
+                            <div data-equalizer-watch>
+                            <img src="http://placehold.it/1080x1080" alt="Image 1" />
+                            <!--<p>{{ entrega.description }}</p>-->
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <a href="#panel2" class="show-for-small-only">Accordion 2</a>
+                <div id="panel2" class="content">
+                    <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3" data-equalizer>
+                        {% for entrega in site.data.entregas limit: 3 %}
+                        <li>
+                            <div data-equalizer-watch>
+                            <img src="http://placehold.it/1080x1080" alt="Image 1" />
+                            <!--<p>{{ entrega.description }}</p>-->
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <a href="#panel3" class="show-for-small-only">Accordion 3</a>
+                <div id="panel3" class="content">
+                    <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3" data-equalizer>
+                        {% for entrega in site.data.entregas limit: 3 %}
+                        <li>
+                            <div data-equalizer-watch>
+                            <img src="http://placehold.it/1080x1080" alt="Image 1" />
+                            <!--<p>{{ entrega.description }}</p>-->
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                </dd>
+            </dl>
+        </div>
+    </div>
+</section>

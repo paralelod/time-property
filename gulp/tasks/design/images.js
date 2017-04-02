@@ -5,12 +5,14 @@ var imageResize = require('gulp-image-resize');
 var rename = require("gulp-rename");
 var clean = require('gulp-clean');
 var config = require('../../config').images;
+var manifest = require('../../config').manifest;
 var assetManifest = require('gulp-asset-manifest');
 
 gulp.task('imgs', function() {
   runSequence(
               'imgs-clean',
               'sketch',
+              'copy-design-links',
               'imgs-copy',
               'imgs-resp'
         );
@@ -30,7 +32,12 @@ gulp.task('imgs-copy', function() {
       config.imgSrcResp+'*.*'
     ])
     .pipe(gulp.dest(config.imgDest))
-    .pipe(assetManifest({bundleName: 'images',manifestFile:'./_dev/_data/images.json', log:true}));
+    .pipe(assetManifest({
+      bundleName: 'images',
+      manifestFile: manifest.imagesDest,
+      includeRelativePath:true, 
+      log:true
+    }));
 });
 
 gulp.task("imgs-resp", function () {

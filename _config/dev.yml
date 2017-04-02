@@ -6,9 +6,9 @@ url: "" # the base hostname & protocol for your site
 
 # Build settings - PRODUCTION
 markdown: kramdown
-gems: [jekyll-paginate,jekyll-sitemap]
+# gems: [jekyll-paginate,jekyll-sitemap]
 exclude: [/gulp, /node_modules,gulpfile.js,_assets,bower.json,Gemfile ,Gemfile.lock,package.json,.publish,]
-theme: time-property
+theme: jellykit
 
 
 

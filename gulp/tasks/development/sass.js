@@ -6,6 +6,11 @@ var runSequence = require('run-sequence');
 var config = require('../../config').sass;
 var manifest = require('../../config').manifest;
 var assetManifest = require('gulp-asset-manifest');
+var autoprefixer = require('gulp-autoprefixer');
+
+var autoprefixerOptions = {
+  browsers: ['last 2 versions', '> 5%', 'Firefox ESR']
+};
 
 gulp.task('sass', function() {
   runSequence('sass-clean',
@@ -25,11 +30,13 @@ gulp.task('sass-clean', function () {
 gulp.task('sass-build', function() {
     gulp.src(config.sassStyleSrc)
         .pipe(sass({outputStyle: compression}).on('error', sass.logError))
+        .pipe(autoprefixer(autoprefixerOptions))
         .pipe(rename(config.cssDist))
         .pipe(gulp.dest(config.cssPathDist))
         .pipe(assetManifest({
             bundleName: manifest.styleBundle,
-            manifestFile:manifest.styleDest,
+            manifestFile: manifest.manifestDest,
+            // manifestFile:manifest.styleDest,
             log:true
         }));
 });

@@ -1,0 +1,25 @@
+<section id="entregas" class="padding-5rem-top-bottom">
+  <div class="row">
+    <div class="small-12 columns text-center">
+    <h1>Nossa Entrega</h1>
+    <h2>Track-Record recente de nosso time</h2>
+    </div>
+    <div class="small-12 columns">
+      <ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4" data-equalizer>
+        {% for entrega in site.data.entregas %}
+          <li>
+            <div data-equalizer-watch>
+              <img data-src="http://placehold.it/1080x1080" alt="Image 1" />
+              <noscript><img src="http://placehold.it/1080x1080" alt="Image 1" /></noscript>
+              <iframe width="210" height="155" data-src="//www.youtube.com/embed/uOzO9O15gwI?rel=0" frameborder="0" allowfullscreen></iframe>
+              <iframe width="210" height="155" data-src="//www.youtube.com/embed/uOzO9O15gwI?rel=0" frameborder="0" allowfullscreen></iframe>
+              <iframe width="210" height="155" data-src="//www.youtube.com/embed/uOzO9O15gwI?rel=0" frameborder="0" allowfullscreen></iframe>
+              <p>{{ entrega.description }}</p>
+            </div>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+</section>

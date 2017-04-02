@@ -1,0 +1,13 @@
+  - title: "Quem Somos"
+    url: "#quem-somos"
+  - title: "Nosso Proposótio"
+    url: "#proposito"
+  - title: "Time"
+    url: "#time"
+  - title: "Especialidades"
+    url: "#especialidades"
+  - title: "Entregas"
+    url: "#entregas"
+  - title: Contato
+    url: "#contato"
+    icon-color: "f14b4b"

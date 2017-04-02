@@ -1,7 +1,13 @@
 PATH
-  remote: _build/_themes/time-property
+  remote: _theme/jellykit
   specs:
-    time-property (2.1.0)
+    jellykit (2.1.0)
+      jekyll (~> 3.3)
+
+PATH
+  remote: _theme/minima-local
+  specs:
+    minima-local (2.1.0)
       jekyll (~> 3.3)
 
 GEM
@@ -11,8 +17,9 @@ GEM
       public_suffix (~> 2.0, >= 2.0.2)
     colorator (1.1.0)
     ffi (1.9.18)
+    ffi (1.9.18-x86-mingw32)
     forwardable-extended (2.6.0)
-    jekyll (3.4.2)
+    jekyll (3.4.3)
       addressable (~> 2.4)
       colorator (~> 1.0)
       jekyll-sass-converter (~> 1.0)
@@ -48,16 +55,24 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
+    thread_safe (0.3.6)
+    tzinfo (1.2.3)
+      thread_safe (~> 0.1)
+    tzinfo-data (1.2017.2)
+      tzinfo (>= 1.0.0)
 
 PLATFORMS
   ruby
+  x86-mingw32
+  x86-unknown
 
 DEPENDENCIES
-  jekyll (= 3.4.2)
+  jekyll (= 3.4.3)
   jekyll-feed (~> 0.6)
   jekyll-sitemap
+  jellykit!
   minima (~> 2.0)
-  time-property!
+  minima-local!
   tzinfo-data
 
 BUNDLED WITH

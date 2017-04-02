@@ -10,7 +10,7 @@ var assetManifest = require('gulp-asset-manifest');
 gulp.task('scripts', function() {
   runSequence(
               'scripts-clean',
-              'scripts-head',
+              // 'scripts-head',
               'scripts-build'
     );
 });
@@ -20,20 +20,6 @@ gulp.task('scripts', function() {
 gulp.task('scripts-clean', function () {
   return gulp.src(config.scriptsClean, {read: true})
     .pipe(clean());
-});
-
-// ######### SCRIPTS HEAD ###############
-
-gulp.task('scripts-head', function() {
-    return gulp.src(config.headSrc)
-    .pipe(concat(config.scriptHeadDist))
-    .pipe(gulp.dest(config.pathDist))
-    .pipe(assetManifest({
-        bundleName: manifest.scriptBundle,
-        manifestFile:manifest.scriptDest,
-        log:true
-    }));
-
 });
 
 
@@ -52,8 +38,23 @@ gulp.task('scripts-build', function() {
     .pipe(gulp.dest(config.pathDist))
     .pipe(assetManifest({
         bundleName: manifest.scriptBundle,
-        manifestFile:manifest.scriptDest,
+        manifestFile:manifest.manifestDest,
+        // manifestFile:manifest.scriptDest,
         log:true
     }));
 
 });
+
+// // ######### SCRIPTS HEAD ###############
+
+// gulp.task('scripts-head', function() {
+//     return gulp.src(config.headSrc)
+//     .pipe(concat(config.scriptHeadDist))
+//     .pipe(gulp.dest(config.pathDist))
+//     .pipe(assetManifest({
+//         bundleName: manifest.scriptBundle,
+//         manifestFile:manifest.scriptDest,
+//         log:true
+//     }));
+
+// });

@@ -1,0 +1,124 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic|Poiret+One|Dancing+Script);
+
+#SlideMiddle {
+  display: block;
+  background: #eeeeee;
+  width: 100%;
+  min-height: 100%;
+}
+#SlideMiddle #nav {
+  display: flex;
+  height: 71px;
+  width: 100%;
+  margin: 0 auto;
+}
+#SlideMiddle #nav #nav-bar {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+#SlideMiddle #nav #fluid-left {
+  display: table-cell;
+  width: 50%;
+  height: 100%;
+  background: url('https://dl.dropboxusercontent.com/u/76642452/CodePen/nav-background.png') repeat-x;
+}
+#SlideMiddle #nav #fix-content {
+  display: table-cell;
+  width: 960px;
+  height: 100%;
+  max-width: 960px;
+  min-width: 960px;
+}
+#SlideMiddle #nav #nav-bar-filters {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+#SlideMiddle #nav #nav-bar-filters .filter-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-grow: 1;
+  height: 100%;
+  color: #a2a2a2;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  background: url('https://dl.dropboxusercontent.com/u/76642452/CodePen/nav-background.png') repeat-x;
+}
+#SlideMiddle #nav #nav-bar-filters .filter-item:hover {
+  color: #868686;
+}
+#SlideMiddle #nav #nav-bar-filters .filter-item.active {
+  color: #868686;
+  background: none;
+}
+#SlideMiddle #nav #nav-bar-filters .filter-item.active:before {
+  content: ' ';
+  background: url('https://dl.dropboxusercontent.com/u/76642452/CodePen/left-end.png') no-repeat;
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 15px;
+  top: 0px;
+  left: -8px;
+}
+#SlideMiddle #nav #nav-bar-filters .filter-item.active:after {
+  content: ' ';
+  background: url('https://dl.dropboxusercontent.com/u/76642452/CodePen/right-end.png') no-repeat;
+  display: block;
+  height: 100%;
+  width: 15px;
+  position: absolute;
+  top: 0;
+  right: -8px;
+}
+#SlideMiddle #nav #fluid-right {
+  display: table-cell;
+  width: 50%;
+  height: 100%;
+  background: url('https://dl.dropboxusercontent.com/u/76642452/CodePen/nav-background.png') repeat-x;
+}
+#SlideMiddle #grid {
+  margin: 40px auto;
+  width: 960px;
+  padding-left: 15px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 1315px) {
+  #SlideMiddle #grid {
+    width: 1275px;
+  }
+}
+@media screen and (min-width: 1630px) {
+  #SlideMiddle #grid {
+    width: 1590px;
+  }
+}
+@media screen and (min-width: 1945px) {
+  #SlideMiddle #grid {
+    width: 1905px;
+  }
+}
+@media screen and (min-width: 2260px) {
+  #SlideMiddle #grid {
+    width: 2220px;
+  }
+}
+@media screen and (min-width: 2575px) {
+  #SlideMiddle #grid {
+    width: 2535px;
+  }
+}
+#SlideMiddle #grid-content {
+  position: relative;
+}
+#SlideMiddle #grid-content .grid-item {
+  margin-bottom: 15px;
+  background: #F66;
+  width: 300px;
+}

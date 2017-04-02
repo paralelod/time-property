@@ -1,8 +1,28 @@
+var fs = require('fs');
 var gulp = require('gulp');
 var runSequence = require('run-sequence');
 var ghPages= require("gulp-gh-pages");
+var GulpSSH = require('gulp-ssh');
+var sftp = require('gulp-sftp');
 var config = require('../../config').deploy;
 
+// var sshInfo = {
+//   host: '192.168.0.21',
+//   port: 22,
+//   username: 'node',
+//   privateKey: fs.readFileSync('/Users/zensh/.ssh/id_rsa')
+// };
+
+// var gulpSSH = new GulpSSH({
+//   ignoreErrors: false,
+//   sshConfig: sshInfo
+// });
+
+// gulp.task('sshExec', function () {
+//   return gulpSSH
+//     .exec(['uptime', 'ls -a', 'pwd'], {filePath: 'commands.log'})
+//     .pipe(gulp.dest('logs'))
+// })
 
 
 gulp.task('ghpages-build', function() {

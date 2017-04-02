@@ -1,0 +1,49 @@
+ defaults:
+    - scope:
+        path: "" # an empty string here means all files in the project
+        type: "pages"
+      values:
+        layout: page/default
+        dev-info: true
+        foundation5: 1
+        fullpage: 1
+        isotope: 1
+        scroll-to: 1
+        animation-page: 1
+        animation-scroll: 1
+        fitivid: 1
+        swipebox: 1
+        preloader: 1
+        top-nav: 1
+        footer: 2
+        sidebar: 1
+        grid: 1
+        mast-head: 1
+        back-to-top: 1
+        map: 1
+        
+    - scope:
+        path: "" # an empty string here means all files in the project
+        type: "posts"
+      values:
+        layout: "post"
+        auto-scroll: false
+        txt-color: dark
+        hero: true
+        hero-bg-color: "#000"
+        title: "TITLE DEFAULT"
+        cover: "/lib/content/cover/post-default-cover.jpg"
+        description: "DESCRIPTION DEFAULT"
+        tags:
+          - journal
+
+
+
+
+   # - scope:
+        #path: "_docs/vendors/foundation_5"
+        #type: docs
+      #values:
+        #layout: docs/docs-foundation
+        #auto-scroll: false
+        #txt-color: dark

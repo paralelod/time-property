@@ -1,9 +1,6 @@
 baseurl: ''
 url: ''
 markdown: kramdown
-gems:
-  - jekyll-feed
-  - jekyll-sitemap
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -14,12 +11,74 @@ exclude:
   - Gemfile.lock
   - package.json
   - .publish
-theme: time-property
+theme: jellykit
+author: Diogo Russo
+job: experience designer
 title: Your awesome title
-email: your-email@domain.com
 description: >
   Write an awesome description for your new site here. You can edit this line in
   _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
+logo: +logo.png
+favico: /lib/img/_favicon.ico
+avatar: +avatar.png
+card: /lib/img/_site_card.jpg
+email: your-email@domain.com
+country: United States
+region: California
+city: Berkeley
+collections:
+  docs:
+    output: true
 twitter_username: jekyllrb
 github_username: jekyll
+defaults:
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: page/default
+      dev-info: true
+      foundation5: 1
+      fullpage: 1
+      isotope: 1
+      scroll-to: 1
+      animation-page: 1
+      animation-scroll: 1
+      fitivid: 1
+      swipebox: 1
+      preloader: 1
+      top-nav: 1
+      footer: 2
+      sidebar: 1
+      grid: 1
+      mast-head: 1
+      back-to-top: 1
+      map: 1
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
+      auto-scroll: false
+      txt-color: dark
+      hero: true
+      hero-bg-color: '#000'
+      title: TITLE DEFAULT
+      cover: /lib/content/cover/post-default-cover.jpg
+      description: DESCRIPTION DEFAULT
+      tags:
+        - journal
+g-analytics: UA-59944728-3
+fb-app-id: '915671155245552'
+see-also:
+  - 'http://work.diogorusso.com'
+  - 'http://www.lucaszappa.com.br'
+  - 'http://www.estudioberinjela.com.br'
+social:
+  - name: behance
+    url: 'https://www.behance.net/diogorusso'
+  - name: linkedin
+    url: 'https://www.linkedin.com/in/diogorusso/en'
+  - name: envelope-o
+    url: 'mailto:contato@estudioberinjela.com.br'

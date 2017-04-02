@@ -9,3 +9,11 @@ gulp.task('sketch', function(){
     }))
     .pipe(gulp.dest(config.sketchImgDest));
 });
+
+
+gulp.task('copy-design-links', function() {
+  return gulp.src([
+      config.designAssets+'*.*',
+    ])
+    .pipe(gulp.dest(config.sketchImgDest))
+});

@@ -1,0 +1,84 @@
+
+// boders
+// colors
+// list
+// margins
+// postion
+// size
+// typography
+// z-index
+
+// LIST
+
+.custom-list {
+  padding-left: 20px;
+}
+
+.custom-list li {
+  list-style-image: url("https://cdn.gomix.com/a30076b8-4d38-438e-a249-cb8aa5b106ff%2Fbullet.png");
+  padding-left: 0;
+  padding: 10px;
+  }
+
+
+
+
+  .relative{
+	position: relative;
+}
+
+// POSITION
+
+.center-center{
+	position:absolute; 
+	top:50%;
+	left:50%; 
+     transform: translateY(-50%)translateX(-50%);
+}
+
+.v-center{
+	position:absolute; 
+	top:50%; 
+     transform: translateY(-50%);
+}
+
+.h-center{
+	position:absolute; 
+	left:50%; 
+     transform: translateX(-50%);
+}
+
+// SIZE
+
+.content-box{
+	max-width: 22rem; 
+	margin: auto;
+	display: block;
+}
+
+.full-width{
+	min-width:100%;
+}
+
+.full-height{
+	min-height:100vh;
+}
+
+@media #{$small-only} { 
+	.v-center{
+		position:relative;
+    transform: none;
+	}
+
+  .h-center{
+	position:relative; 
+  transform: none;
+}
+ 
+}
+
+// TYPOGRAPHY 
+
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
