@@ -3,7 +3,37 @@ layout: home
 page-id: home
 ---
 
-<!-- form membro 1 -->
+
+ <!--
+	 
+	 hero + modal + scroll - EN / PT
+
+	 form cadastro
+
+	 slick slider frases
+
+	 accordion / galaeria
+
+	 grid 2 colunas
+
+	 slick slider plantas
+
+	 grid beneficios
+
+	grid  member 
+
+	grid vantagens
+
+	form cadastro 2 
+
+	footer 
+
+	copryright 
+ 
+ -->
+
+
+<!--FORM 1-->
 <section class="padding-5rem-top-bottom">
   <div class="row">
     <div class="small-12 columns">
@@ -24,200 +54,129 @@ page-id: home
   </div>
 </section>
 
-<!-- Foto conceito -->
 
-<section class="hero">
-  <div class="row intro">
-    <div class="small-12 columns text-center">
-      <h2>
-        O T I M E P R O P E RTY É U M CONCEITO Q U E VA LO R I Z A O S E U B E M M A I S P R E C I O S O : O S E U T E M P O L I V R E .
-      </h2>
-    </div>
-  </div>
+<!--SLIDER FRASES-->
+{% include content/slider.html %}
+
+<!--GALERIA ACCORDION-->
+{% include content/accordion.html %}
+
+<!-- LOCAL -->
+{% include content/o-local.html%}
+
+<!--SLIDER PLANTAS-->
+{% include content/slider.html %}
+
+<!--BENEFICIOS-->
+
+<section>
+	<div class="row">
+		<div class="small-12 columns text-center">
+			<h2>BENEFÍCIOS DO TIME PROPERTY CLUB</h2>
+			<h5>O Time Property Club é um excelente investimento financeiro, já que possui facilidades
+					de pagamento, segurança jurídica e todas as garantias que você precisa.
+					E o melhor de tudo é que o maior retorno deste investimento vem
+					em felicidade para você e sua família
+			</h5>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4" data-equalizer>
+				{% for item in site.data.content %}
+					{% if item.category == "beneficios" %}
+						{% capture file-name %}{{ item.file }}{% endcapture %}
+						{% capture description-content %}{{ item.desc-PT }}{% endcapture %}
+						{% include content/grid-list-block.html 
+							file=file-name 
+							description=description-content 
+							img-class="full-width"
+						%}
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
+
+
+<!--SEJA MEMBRO-->
+
+<section>
+	<div class="row">
+	<div class="small-12 columns text-center">
+		<h2>É MUITO FÁCIL SE TORNAR <br> UM MEMBRO DO TIME PROPERTY CLUB</h2>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3" data-equalizer>
+				{% for item in site.data.content %}
+					{% if item.category == "seja-membro" %}
+						{% capture description-content %}{{ item.desc-PT }}{% endcapture %}
+						{% capture file-name %}{{ item.file }}{% endcapture %}
+						{% include content/grid-list-block.html 
+							file=file-name
+							description= description-content 
+							img-class="full-width"
+						%}
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>
+
+
+<!--VANTAGENS-->
+
+<section>
+	<div class="row">
+		<div class="small-12 columns text-center">
+			<h2>CLUBE DE VANTAGENS</h2>
+			<h5>
+				Seja membro exclusivo do Time Property Club e ganhe ainda mais benefícios.
+			</h5>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4" data-equalizer>
+				{% for item in site.data.content %}
+					{% if item.category == "vantagens" %}
+					{% capture description-content %}{{ item.desc-PT }}{% endcapture %}
+					{% capture file-name %}{{ item.file }}{% endcapture %}
+						{% include content/grid-list-block.html 
+							file= file-name 
+							description= description-content 
+							img-class="full-width"
+						%}
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
 </section>
 
 
 
-
-<!-- experiencia -->
-<section id="experiencia" class="padding-5rem-top-bottom">
-   
+<!--FORM 2-->
+<section>
   <div class="row">
-    <div class="small-12 text-center">
-      <h2>O TIME PROPERTY CLUB</h2>
-    </div>
     <div class="small-12 columns">
-      <ul class="tabs show-for-medium-up" data-tab>
-        <li class="tab-title active"><a href="#panel1">Tab / Accordion 1</a></li>
-        <li class="tab-title"><a href="#panel2">Tab / Accordion 2</a></li>
-        <li class="tab-title"><a href="#panel3">Tab / Accordion 3</a></li>
-      </ul>
-      <dl class="accordion" data-accordion>
-
-        <dd class="accordion-navigation">
-          <a href="#panel1" class="show-for-small-only">Accordion 1</a>
-          <div id="panel1" class="content active">
-            <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3" data-equalizer>
-                {% for entrega in site.data.entregas limit: 6 %}
-                  <li>
-                    <div data-equalizer-watch>
-                      <img src="http://placehold.it/1080x1080" alt="Image 1" />
-                      <!--<p>{{ entrega.description }}</p>-->
-                    </div>
-                  </li>
-                {% endfor %}
-              </ul>
-          </div>
-          <a href="#panel2" class="show-for-small-only">Accordion 2</a>
-          <div id="panel2" class="content">
-            <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3" data-equalizer>
-                {% for entrega in site.data.entregas limit: 4 %}
-                  <li>
-                    <div data-equalizer-watch>
-                      <img src="http://placehold.it/1080x1080" alt="Image 1" />
-                      <!--<p>{{ entrega.description }}</p>-->
-                    </div>
-                  </li>
-                {% endfor %}
-              </ul>
-          </div>
-          <a href="#panel3" class="show-for-small-only">Accordion 3</a>
-          <div id="panel3" class="content">
-              <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3" data-equalizer>
-                {% for entrega in site.data.entregas limit: 3 %}
-                  <li>
-                    <div data-equalizer-watch>
-                      <img src="http://placehold.it/1080x1080" alt="Image 1" />
-                      <!--<p>{{ entrega.description }}</p>-->
-                    </div>
-                  </li>
-                {% endfor %}
-              </ul>
-          </div>
-        </dd>
-      </dl>
+      SEJA MEMBRO E GANHE BENEFÍCIOS EXCLUSIVOS
     </div>
-</div>
-      
+    <div class="small-12 medium-6 large-3 columns">
+      <input type="" name="nome" placeholder="seu nome">
     </div>
-</section>
-
-<!-- local -->
-<section id="local" class="padding-5rem-top-bottom">
-  <div class="row relative">
-    <div class="small-12 medium-6 large-6 columns v-center">
-      <h2>FORTIM, UM PARAÍSO POUCO CONHECIDO</h2>
-        O Time Property Club localiza-se na Praia Pontal
-        de Maceió, em Fortim (CE).<br>
-        •É uma charmosa vila de pescadores,
-        no litoral do Ceará.<br>
-        • A 115 Km de Fortaleza (1h de carro pela
-        rodovia CE-040).<br>
-        • A 15 Km do Aeroporto Internacional de Aracati.<br>
-        • A 20 Km das praias de Canoa Quebrada.<br>
-        • A aproximadamente 1h de carro do Beach Park,
-        um dos melhores parques aquáticos da
-        América Latina.<br>
+    <div class="small-12 medium-6 large-3 columns">
+      <input type="" name="nome" placeholder="seu nome">
     </div>
-    <div class="small-12 medium-6 large-6 columns">
-      <img src="http://placehold.it/1080x1080" alt="">
+    <div class="small-12 medium-6 large-3 columns">
+      <input type="" name="nome" placeholder="seu nome">
     </div>
-    <div class="small-12 medium-6 large-6 columns">
-      <img src="http://placehold.it/1080x1080" alt="">
-    </div>
-    <div class="small-12 medium-6 large-6 columns v-center">
-      <h2>E COM UMA NATUREZA PERFEITA.</h2>
-        • Verão o ano inteiro.<br>
-        • Praias com águas quentes e cristalinas.<br>
-        • Cercado pelo Rio Jaguaribe, com mais de
-        35 Km navegavéis<br>
-        • Ecossistema perfeito para descansar, passear ou
-        praticar esportes, incluindo esportes náuticos.<br>
-    </div>
-
-  </div>
-</section>
-
-<!--plantas-->
-<section id="plantas" class="row relative">
-    <div class="small-12 text-center">
-      <h2>CONHEÇA OS ESPAÇOS DO TIME PROPERTY CLUB FORTIM</h2>
-    </div>
-</section>
-<section class="hero">
-  <div class="row intro">
-    <div class="small-centered medium-6 large-7 columns text-center">
-      
+    <div class="small-12 medium-6 large-3 columns">
+      <input type="" name="nome" placeholder="seu nome">
     </div>
   </div>
 </section>
-
-<!-- beneficios -->
-<section id="beneficios" class="padding-5rem-top-bottom">
-  <div class="row">
-    <div class="small-12 medium-12 large-12 columns text-center">
-        <h2>BENEFÍCIOS DO TIME PROPERTY CLUB</h2>
-        <h4>O Time Property Club é um excelente investimento financeiro, já que possui facilidades de pagamento, segurança jurídica e todas as garantias que você precisa.E o melhor de tudo é que o maior retorno deste investimento vem em felicidade para você e sua família</h4>
-      </div>
-     <div class="small-12 columns">
-      <ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4" data-equalizer>
-        {% for entrega in site.data.entregas limit:8 %}
-          <li>
-            <div data-equalizer-watch>
-              <img src="http://placehold.it/1080x1080" alt="Image 1" />
-              <p>{{ entrega.description }}</p>
-            </div>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-</section>
-
-<!-- é muito facil se tornar socio -->
-<section id="membro"  class="padding-5rem-top-bottom">
-  <div class="row relative">
-    <div class="small-12 columns">
-      <h2>É MUITO FÁCIL SE TORNAR UM MEMBRO DO TIME PROPERTY CLUB</h2>
-    </div>
-    <div class="small-12 medium-4 large-4 columns">
-      <img src="http://placehold.it/1080x1080" alt="">
-      <p>Preencha o formulário aqui no site.</p>
-    </div>
-    <div class="small-12 medium-4 large-4 columns">
-      <img src="http://placehold.it/1080x1080" alt="">
-      <p>Um de nossos promotores entrará em contato e apresentará as condições especiais.</p>
-    </div>
-    <div class="small-12 medium-4 large-4 columns">
-      <img src="http://placehold.it/1080x1080" alt="">
-      <p>Aproveite o paraíso e desfrute de benefícios exclusivos.</p>
-    </div>
-  </div>
-</section>
-
-
-<!-- clube de vantagens -->
-<section id="vantagens"  class="padding-5rem-top-bottom">
-  <div class="row relative">
-    <div class="small-12 columns">
-      <h2>CLUBE DE VANTAGENS</h2>
-    </div>
-    <div class="small-12 medium-6 large-3 columns">
-      <img src="http://placehold.it/1080x1080" alt="">
-      <p>Descontos e benefícios exclusivos como membro do Club Internacional LYONESS.</p>
-    </div>
-    <div class="small-12 medium-6 large-3 columns">
-      <img src="http://placehold.it/1080x1080" alt="">
-      <p>Descontos e benefícios exclusivos em uma rede hoteleira internacional.</p>
-    </div>
-    <div class="small-12 medium-6 large-3 columns">
-      <img src="http://placehold.it/1080x1080" alt="">
-      <p>Acesso ao Reserva Jaguaribe Club Náutico com benefícios e descontos exclusivos nos equipamentos náuticos.</p>
-    </div>
-    <div class="small-12 medium-6 large-3 columns">
-      <img src="http://placehold.it/1080x1080" alt="">
-      <p>Descontos e preços especiais em um pacote de seguros e beneficios.</p>
-    </div>
-  </div>
-</section>
-
 

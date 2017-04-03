@@ -1,0 +1,68 @@
+//----------- import fonts ----------//
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round'),
+        url('https://fonts.googleapis.com/css?family=Arvo');
+
+//----------- theme config ----------//
+
+$theme-font-serif:'Arvo', serif; 
+$theme-font-sans-serif:'Varela Round', sans-serif; 
+$theme-font-size: 18px;
+
+$theme-dark-color: #000;
+$theme-light-color: #fff;
+$theme-link-color: blue;
+$theme-link-color-hover: purple;
+$transparent: transparent;
+
+
+//----------- theme custom ----------//
+
+// custom theme style --- insert here
+
+@import
+
+
+    //----------- bower  ----------//
+
+    "../../../bower_components/normalize-css/normalize",
+	"../../../bower_components/foundation/scss/foundation",
+    "../../../bower_components/slick-carousel/slick/slick.scss",
+    "../../../bower_components/aos/src/sass/aos.scss",
+    "../../../bower_components/swipebox/scss/swipebox.scss",
+
+    //----------- config ----------//
+
+    "+config-colors",
+    "+config-text",
+
+    //----------- util ----------//
+
+    "0-0-util",    
+    "0-util-imgs",
+
+    //----------- html ----------//
+
+    //style
+    "body-html",
+    "body-text",
+    
+    //----------- loading ----------//
+
+    "preloader",
+
+     //----------- components ----------//
+
+    //nav
+    "forms",
+    "buttons",
+    "nav",
+
+    //----------- content ----------//
+
+    "masthead",
+    "isotope",
+    "slider",
+    "modal"
+;
+

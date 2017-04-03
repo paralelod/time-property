@@ -1,0 +1,48 @@
+<section>
+  <div class="row full-width relative large-collapse medium-collapse">
+	{% for item in site.data.content %}
+		{% if item.category == "local" and item.id == 01 %}
+			<div class="small-12 columns show-for-small-only">
+				<span  data-aos="fade" data-aos-delay="100" data-aos-duration="750">
+					{% include img/resp.html max-wid="1042" b-points="1042|791|480" file="quadrado_01.jpg" alt="time property" %}
+				</span>
+			</div> 
+			<div class="small-12 medium-6 large-6 columns v-center">
+				<div class="content-box" data-aos="fade-right">
+					<div class="margin-title">
+					<h3>{{ item.title-PT }}</h3>
+					</div>
+					<p>{{ item.desc-PT }}</p>
+				</div>
+			</div>
+			<div class="small-12  show-for-medium-up  medium-6 large-6 columns">
+				<span  data-aos="fade" data-aos-delay="100" data-aos-duration="750">
+					
+					{% include img/resp.html max-wid="1042" b-points="1042|791|480" file="quadrado_01.jpg" alt="time property" %}
+				</span>
+			</div> 
+		{% endif %}
+    {% endfor %}
+  </div>
+</section>
+<section>
+  <div class="row full-width relative large-collapse medium-collapse">
+	{% for item in site.data.content %}
+		{% if item.category == "local" and item.id == 02 %}
+			<div class="small-12 medium-6 large-6 columns">
+				<span  data-aos="fade" data-aos-delay="100" data-aos-duration="750">
+					{% include img/resp.html max-wid="1042" b-points="1042|791|480" file="quadrado_02.jpg" alt="time property" %}
+				</span>
+			</div> 
+			<div class="small-12 medium-6 large-6 columns v-center-h-76">
+				<div class="content-box" data-aos="fade-right">
+					<div class="margin-title">
+					<h3>{{ item.title-PT }}</h3>
+					</div>
+					<p>{{ item.desc-PT }}</p>
+				</div>
+			</div>
+		{% endif %}
+    {% endfor %}
+  </div>
+</section>

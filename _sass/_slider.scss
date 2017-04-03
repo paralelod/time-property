@@ -1,0 +1,18 @@
+.slick-arrow{
+    position: absolute;
+    top: 35%;
+    background: #000;
+}
+
+.slick-arrow:hover, .slick-arrow:focus{
+    color: #000;
+    background: #fff;
+}
+
+.slick-next{
+    right: 0;
+} 
+.slick-prev{
+    left: 0;
+    z-index: 3
+} 

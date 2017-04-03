@@ -1,0 +1,75 @@
+<section id="experiencia" class="">
+   
+    <div class="row">
+        <div class="small-12 text-center" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
+            <h1>Accordion</h1>
+        </div>
+    </div>
+</section>
+<section class="">
+    <div class="row full-width">
+        <div class="small-12 columns">
+            <ul class="tabs show-for-medium-up" data-tab>
+                <li class="tab-title active"><a href="#panel1">Tab / Accordion 1</a></li>
+                <li class="tab-title"><a href="#panel2">Tab / Accordion 2</a></li>
+                <li class="tab-title"><a href="#panel3">Tab / Accordion 3</a></li>
+            </ul>
+            <dl class="accordion" data-accordion>
+
+                <dd class="accordion-navigation">
+                <a href="#panel1" class="show-for-small-only">Accordion 1</a>
+                <div id="panel1" class="content active">
+                    <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3" data-equalizer>
+                        {% for item in site.data.content %}
+                                {% if item.category == "galeria-tp" %}
+                                    {% if item.subcategory == "apartamentos" %}
+                                    {% capture file-name %}{{ item.file }}{% endcapture %}
+                                    {% include content/grid-list-block.html 
+                                        file= file-name 
+                                        description= "Escritorio" 
+                                        img-class= "full-width"
+                                    %}
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+                <a href="#panel2" class="show-for-small-only">Accordion 2</a>
+                <div id="panel2" class="content">
+                   <ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4" data-equalizer>
+                        {% for item in site.data.content %}
+                                {% if item.category == "galeria-tp" %}
+                                    {% if item.subcategory == "serviços" %}
+                                    {% capture file-name %}{{ item.file }}{% endcapture %}
+                                    {% include content/grid-list-block.html 
+                                        file= file-name 
+                                        description= "Escritorio" 
+                                        img-class= "full-width"
+                                    %}
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+                <a href="#panel3" class="show-for-small-only">Accordion 3</a>
+                <div id="panel3" class="content">
+                    <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3" data-equalizer>
+                        {% for item in site.data.content %}
+                                {% if item.category == "galeria-tp" %}
+                                    {% if item.subcategory == "lazer" %}
+                                    {% capture file-name %}{{ item.file }}{% endcapture %}
+                                    {% include content/grid-list-block.html 
+                                        file= file-name 
+                                        description= "Escritorio" 
+                                        img-class= "full-width"
+                                    %}
+                                {% endif %}
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </div>
+                </dd>
+            </dl>
+        </div>
+    </div>
+</section>

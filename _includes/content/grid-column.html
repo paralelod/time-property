@@ -1,0 +1,20 @@
+
+{% assign breakpoints =  include.b-points | split: "|" %}
+
+
+	<div class="small-{{ include.class }}" data-aos="" data-aos-delay="" data-aos-duration="">
+		<picture>
+            <img sizes="(max-width: {{ include.max-wid }}px)100vw, {{ include.max-wid }}px"
+                srcset="{% for break in breakpoints %}
+                    ./assets/img/{{ break }}/{{ include.file }} {{ break }}w,
+                    {% endfor %}"
+                src="./assets/img/{{ include.max-wid }}/{{ include.file }}"
+                alt="{{ include.alt }} {{ breakpoints }}"
+                class="{{ include.img-class }}">
+        </picture>
+        <p>{{ include.description}}</p>
+	</div>
+
+
+
+

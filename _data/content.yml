@@ -1,0 +1,476 @@
+
+# ------- GALERIA -------- #
+
+# column item
+- category: "galeria-tp"
+  subcategory: "apartamentos"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_01.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "PT galeria 01"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "apartamentos"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_02.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "apartamentos"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_03.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "apartamentos"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_04.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "apartamentos"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_05.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "apartamentos"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_06.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "serviços"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_07.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "serviços"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_08.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "serviços"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_09.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "serviços"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_10.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "serviços"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_11.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "serviços"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_12.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "serviços"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_13.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "serviços"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_14.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "lazer"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_15.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "lazer"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_16.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "lazer"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_17.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "lazer"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_18.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "lazer"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_19.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "lazer"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_20.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "lazer"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_21.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "EN"
+  desc-EN: "EN"
+
+
+# ------- SLIDER FRASES -------- #
+
+
+
+# ------- LOCAL -------- #
+
+# local 01
+- category: "local"
+  id: 01
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "quadrado_01.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  title-PT: "FORTIM, UM PARAÍSO POUCO CONHECIDO."
+  desc-PT: "O Time Property Club localiza-se na Praia Pontal
+            de Maceió, em Fortim (CE).
+            •É uma charmosa vila de pescadores,
+            no litoral do Ceará.
+            • A 115 Km de Fortaleza (1h de carro pela
+            rodovia CE-040).
+            • A 15 Km do Aeroporto Internacional de Aracati.
+            • A 20 Km das praias de Canoa Quebrada.
+            • A aproximadamente 1h de carro do Beach Park,
+            um dos melhores parques aquáticos da
+            América Latina."
+  title-EN: "EN"
+  desc-EN: "EN"
+
+# local 02
+- category: "local"
+  id: 02
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "quadrado_02.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  title-PT: "E COM UMA NATUREZA PERFEITA."
+  desc-PT: "Verão o ano inteiro.
+            • Praias com águas quentes e cristalinas.
+            • Cercado pelo Rio Jaguaribe, com mais de
+            35 Km navegavéis
+            • Ecossistema perfeito para descansar, passear ou
+            praticar esportes, incluindo esportes náuticos."
+  title-EN: ""
+  desc-EN: "PTTT"
+
+
+# ------- BENEFICIOS -------- #
+
+# column item
+- category: "beneficios"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "base.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
+  desc-EN: "EN"
+
+# column item
+- category: "beneficios"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "base.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
+  desc-EN: "EN"
+
+  # column item
+- category: "beneficios"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "base.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
+  desc-EN: "EN"
+
+  # column item
+- category: "beneficios"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "base.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
+  desc-EN: "EN"
+
+  # column item
+- category: "beneficios"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "base.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
+  desc-EN: "EN"
+
+  # column item
+- category: "beneficios"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "base.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
+  desc-EN: "EN"
+
+  # column item
+- category: "beneficios"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "base.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
+  desc-EN: "EN"
+
+  # column item
+- category: "beneficios"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "base.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
+  desc-EN: "EN"
+
+# ------- SEJA MEMBRO -------- #
+
+# column item
+- category: "seja-membro"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "circulo_01.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Preencha o formulário aqui no site."
+  desc-EN: "EN"
+
+# column item
+- category: "seja-membro"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "circulo_02.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Um de nossos promotores entrará em contato e apresentará as condições especiais."
+  desc-EN: "EN"
+
+# column item
+- category: "seja-membro"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "circulo_03.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Aproveite o paraíso e desfrute de benefícios exclusivos."
+  desc-EN: "EN"
+
+  # ------- VANTAGENS -------- #
+
+# column item
+- category: "vantagens"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "base.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Descontos e benefícios exclusivos como membro do Club Internacional LYONESS."
+  desc-EN: "EN"
+
+# column item
+- category: "vantagens"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "base.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Acesso ao Reserva Jaguaribe Club Náutico com benefícios e descontos exclusivos nos equipamentos náuticos."
+  desc-EN: "EN"
+
+# column item
+- category: "vantagens"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "base.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Descontos e benefícios exclusivos como membro do Club Internacional LYONESS."
+  desc-EN: "EN"
+
+# column item
+- category: "vantagens"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "base.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Descontos e benefícios exclusivos como membro do Club Internacional LYONESS."
+  desc-EN: "EN"
