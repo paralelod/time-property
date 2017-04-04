@@ -5,7 +5,7 @@
         srcset="{% for break in breakpoints %}
                ./assets/img/{{ break }}/{{ include.file }} {{ break }}w,
             {% endfor %}"
-        src="./assets/img/{{ include.max-wid }}/{{ include.file }}"
+        data-src="./assets/img/{{ include.max-wid }}/{{ include.file }}"
         alt="{{ include.alt }} {{ breakpoints }}"
         class="full-width">
 </picture>
