@@ -39,11 +39,11 @@ $preloader-spinner: $theme-dark-color;
 
 $top-bar-bg: $theme-light-color;
 //$top-bar-bg: transparent; //use transparent if Anim Menu
-$top-bar-bg-undocked: $theme-light-color;
-$top-bar-txt: $theme-dark-color;
-$top-bar-txt-undocked: $theme-dark-color;
+$top-bar-bg-undocked: $theme-dark-color;
+$top-bar-txt: $theme-light-color;
+$top-bar-txt-undocked: $theme-light-color;
 $top-bar-expanded-bg: $transparent;
-$top-bar-expanded-txt: $theme-dark-color;
+$top-bar-expanded-txt: $theme-light-color;
 
 // TAB BAR
 $tab-bar-bg: $theme-dark-color;
