@@ -15,6 +15,25 @@ $theme-link-color: blue;
 $theme-link-color-hover: purple;
 $transparent: transparent;
 
+.bg-bege{
+    background: #e7dfd1;
+}
+
+.bg-azulado{
+    background: #63b5c0;
+}
+
+.bg-praia{
+    background: #63b5c0 url(../img/bg-onda.jpg) repeat-x bottom;
+}
+
+
+
+.accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
+background: none !important;
+}
+
+
 
 //----------- theme custom ----------//
 
