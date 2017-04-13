@@ -254,6 +254,8 @@
   desc-EN: "EN"
 
 
+
+
 # ------- SLIDER FRASES -------- #
 
 
@@ -271,13 +273,13 @@
   break-point: "1040, 1024"
   title-PT: "FORTIM, UM PARAÍSO POUCO CONHECIDO."
   desc-PT: "O Time Property Club localiza-se na Praia Pontal
-            de Maceió, em Fortim (CE).
+            de Maceió, em Fortim (CE).<br>
             •É uma charmosa vila de pescadores,
-            no litoral do Ceará.
+            no litoral do Ceará.<br>
             • A 115 Km de Fortaleza (1h de carro pela
-            rodovia CE-040).
-            • A 15 Km do Aeroporto Internacional de Aracati.
-            • A 20 Km das praias de Canoa Quebrada.
+            rodovia CE-040).<br>
+            • A 15 Km do Aeroporto Internacional de Aracati.<br>
+            • A 20 Km das praias de Canoa Quebrada.<br>
             • A aproximadamente 1h de carro do Beach Park,
             um dos melhores parques aquáticos da
             América Latina."
@@ -295,9 +297,9 @@
   break-point: "1040, 1024"
   title-PT: "E COM UMA NATUREZA PERFEITA."
   desc-PT: "Verão o ano inteiro.
-            • Praias com águas quentes e cristalinas.
+            • Praias com águas quentes e cristalinas.<br>
             • Cercado pelo Rio Jaguaribe, com mais de
-            35 Km navegavéis
+            35 Km navegavéis<br>
             • Ecossistema perfeito para descansar, passear ou
             praticar esportes, incluindo esportes náuticos."
   title-EN: ""

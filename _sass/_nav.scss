@@ -26,8 +26,10 @@
     text-decoration:none;
   }
 
-.logo img {
-  max-height: 3rem;
+.name img {
+    max-height: 3rem;
+    padding: 1rem 0 0 2rem;
+    max-width:inherit;
 }
 
 
@@ -68,7 +70,7 @@
   background:transparent !important;
   & > a {
     font-family: $top-bar-font !important;
-    font-size: 1.2rem;
+    // font-size: 1.2rem;
     color:$top-bar-txt;
     text-decoration: none;
     border-bottom: none;
@@ -132,7 +134,7 @@
 
 
 .undocked   {
-  padding-bottom: 0.25rem;
+  padding-bottom: 1rem;
   transition: background 0.5s ease !important;
   background: $top-bar-bg-undocked !important;
   visibility: visible !important;
@@ -146,9 +148,10 @@
 
 
 
-.undocked .name img {
-  max-height: 3rem;
-}
+// .undocked .name img {
+//    max-height: 2.5rem;
+//   padding: 1rem 0 0 2rem;
+// }
 
 
 // undocked top bar 

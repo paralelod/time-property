@@ -37,8 +37,8 @@ $preloader-spinner: $theme-dark-color;
 
 // TOP MENU 
 
-$top-bar-bg: $theme-light-color;
-//$top-bar-bg: transparent; //use transparent if Anim Menu
+// $top-bar-bg: $theme-dark-color;
+$top-bar-bg: transparent; //use transparent if Anim Menu
 $top-bar-bg-undocked: $theme-dark-color;
 $top-bar-txt: $theme-light-color;
 $top-bar-txt-undocked: $theme-light-color;
