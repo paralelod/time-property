@@ -21,7 +21,7 @@
 
 
 
-.logo  a{
+.name  a{
     border-bottom:none;
     text-decoration:none;
   }
@@ -32,6 +32,12 @@
     max-width:inherit;
 }
 
+@media screen and (max-width: 640px) {
+    .name img {
+    max-height: 2.35rem;
+}
+    
+}
 
 
 .top-bar  {
