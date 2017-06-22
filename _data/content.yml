@@ -313,7 +313,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "base.jpg"
+  file: "beneficios-01.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
@@ -324,7 +324,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "base.jpg"
+  file: "beneficios-02.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
@@ -335,7 +335,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "base.jpg"
+  file: "beneficios-03.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
@@ -346,7 +346,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "base.jpg"
+  file: "beneficios-04.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
@@ -357,7 +357,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "base.jpg"
+  file: "beneficios-05.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
@@ -368,7 +368,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "base.jpg"
+  file: "beneficios-06.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
@@ -379,7 +379,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "base.jpg"
+  file: "beneficios-07.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
@@ -390,7 +390,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "base.jpg"
+  file: "beneficios-08.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
@@ -403,7 +403,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "circulo_01.jpg"
+  file: "passo_01.png"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Preencha o formulário aqui no site."
@@ -414,7 +414,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "circulo_02.jpg"
+  file: "passo_02.png"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Um de nossos promotores entrará em contato e apresentará as condições especiais."
@@ -425,7 +425,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "circulo_03.jpg"
+  file: "passo_03.png"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Aproveite o paraíso e desfrute de benefícios exclusivos."
@@ -438,7 +438,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "base.jpg"
+  file: "vantagens-01.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Descontos e benefícios exclusivos como membro do Club Internacional LYONESS."
@@ -449,7 +449,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "base.jpg"
+  file: "vantagens-02.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Acesso ao Reserva Jaguaribe Club Náutico com benefícios e descontos exclusivos nos equipamentos náuticos."
@@ -460,7 +460,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "base.jpg"
+  file: "vantagens-03.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Descontos e benefícios exclusivos como membro do Club Internacional LYONESS."
@@ -471,7 +471,7 @@
   col-lg : 3
   col-md: 4
   col-sm: 2
-  file: "base.jpg"
+  file: "vantagens-04.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Descontos e benefícios exclusivos como membro do Club Internacional LYONESS."
