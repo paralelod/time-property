@@ -1,0 +1,30 @@
+
+<section>
+	<div class="row">
+		<div class="small-12 columns text-center">
+			<h2>BENEFÍCIOS DO TIME PROPERTY CLUB</h2>
+			<h5>O Time Property Club é um excelente investimento financeiro, já que possui facilidades
+					de pagamento, segurança jurídica e todas as garantias que você precisa.
+					E o melhor de tudo é que o maior retorno deste investimento vem
+					em felicidade para você e sua família
+			</h5>
+		</div>
+	</div>
+	<div class="row">
+		<div class="small-12 columns">
+			<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4" data-equalizer>
+				{% for item in site.data.content %}
+					{% if item.category == "beneficios" %}
+						{% capture file-name %}{{ item.file }}{% endcapture %}
+						{% capture description-content %}{{ item.desc-PT }}{% endcapture %}
+						{% include content/grid-list-block.html 
+							file=file-name 
+							description=description-content 
+							img-class="full-width"
+						%}
+					{% endif %}
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</section>

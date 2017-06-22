@@ -3,36 +3,6 @@ layout: home
 page-id: home
 ---
 
-
- <!--
-	 
-	 hero + modal + scroll - EN / PT
-
-	 form cadastro
-
-	 slick slider frases
-
-	 accordion / galaeria
-
-	 grid 2 colunas
-
-	 slick slider plantas
-
-	 grid beneficios
-
-	grid  member 
-
-	grid vantagens
-
-	form cadastro 2 
-
-	footer 
-
-	copryright 
- 
- -->
-
-
 <!--FORM CADASTRO-->
 {% include content/form-cadastro.html %}
 
@@ -49,97 +19,14 @@ page-id: home
 {% include content/plantas.html %}
 
 <!--BENEFICIOS-->
-
-<section>
-	<div class="row">
-		<div class="small-12 columns text-center">
-			<h2>BENEFÍCIOS DO TIME PROPERTY CLUB</h2>
-			<h5>O Time Property Club é um excelente investimento financeiro, já que possui facilidades
-					de pagamento, segurança jurídica e todas as garantias que você precisa.
-					E o melhor de tudo é que o maior retorno deste investimento vem
-					em felicidade para você e sua família
-			</h5>
-		</div>
-	</div>
-	<div class="row">
-		<div class="small-12 columns">
-			<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4" data-equalizer>
-				{% for item in site.data.content %}
-					{% if item.category == "beneficios" %}
-						{% capture file-name %}{{ item.file }}{% endcapture %}
-						{% capture description-content %}{{ item.desc-PT }}{% endcapture %}
-						{% include content/grid-list-block.html 
-							file=file-name 
-							description=description-content 
-							img-class="full-width"
-						%}
-					{% endif %}
-				{% endfor %}
-			</ul>
-		</div>
-	</div>
-</section>
-
+{% include content/beneficios.html %}
 
 <!--SEJA MEMBRO-->
-
-<section>
-	<div class="row">
-	<div class="small-12 columns text-center">
-		<h2>É MUITO FÁCIL SE TORNAR <br> UM MEMBRO DO TIME PROPERTY CLUB</h2>
-	</div>
-	<div class="row">
-		<div class="small-12 columns text-center">
-			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3" data-equalizer>
-				{% for item in site.data.content %}
-					{% if item.category == "seja-membro" %}
-						<li>
-							<div data-equalizer-watch data-aos="" data-aos-delay="" data-aos-duration="">
-								<img 
-									data-src="./assets/img/{{ item.file }}" 
-									alt="{{ item.desc-PT }}" 
-									src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"/ >
-								<p style="background:#fff; padding:1rem;">{{ item.desc-PT }}</p>
-							</div>
-						</li>
-					{% endif %}
-				{% endfor %}
-			</ul>
-		</div>
-	</div>
-</section>
+{% include content/seja-membro.html %}
 
 
 <!--VANTAGENS-->
-
-<section>
-	<div class="row">
-		<div class="small-12 columns text-center">
-			<h2>CLUBE DE VANTAGENS</h2>
-			<h5>
-				Seja membro exclusivo do Time Property Club e ganhe ainda mais benefícios.
-			</h5>
-		</div>
-	</div>
-	<div class="row">
-		<div class="small-12 columns">
-			<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4" data-equalizer>
-				{% for item in site.data.content %}
-					{% if item.category == "vantagens" %}
-					{% capture description-content %}{{ item.desc-PT }}{% endcapture %}
-					{% capture file-name %}{{ item.file }}{% endcapture %}
-						{% include content/grid-list-block.html 
-							file= file-name 
-							description= description-content 
-							img-class="full-width"
-						%}
-					{% endif %}
-				{% endfor %}
-			</ul>
-		</div>
-	</div>
-</section>
-
+{% include content/vantagens.html %}
 
 
 <!--FORM CADASTRO-->
