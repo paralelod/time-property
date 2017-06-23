@@ -7,7 +7,7 @@
 
 $theme-font-serif:'Arvo', serif; 
 $theme-font-sans-serif:'Varela Round', sans-serif; 
-$theme-font-size: 18px;
+$theme-font-size: 16px;
 
 $theme-dark-color: #000;
 $theme-light-color: #fff;
@@ -26,7 +26,8 @@ $transparent: transparent;
 
 
 .bg-praia{
-    background: #63b5c0 url(../img/bg-onda.jpg) repeat-x bottom;
+    background: #63b5c0 url(../img/bg-onda.png) repeat-x bottom;
+    padding-bottom: 8rem;
 }
 
 

@@ -1,7 +1,13 @@
 <section>
 	<div class="row">
 		<div class="small-12 columns text-center">
-			<h2>É MUITO FÁCIL SE TORNAR <br> UM MEMBRO DO TIME PROPERTY CLUB</h2>
+			<h2>
+				{% for string in site.data.strings %}
+					{% if string.section == "seja-membro" and string.id == 00 %}
+						{{ string.title-PT }}
+					{% endif %}
+            	{% endfor %}
+			</h2>
 		</div>
 	</div>
 	<div class="row">

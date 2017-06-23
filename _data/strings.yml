@@ -1,0 +1,77 @@
+# NAV 
+- section: menu
+  title-PT: "menu"
+  title-EN: "menu"
+  url: "exp"
+- section: nav
+  title-PT: "A EXPERIÊNCIA"
+  title-EN: "EXPERIENCE"
+  url: "exp"
+- section: nav
+  title-PT: "O LOCAL"
+  title-EN: "THE PLACE"
+  url: "#local"
+- section: nav
+  title-PT: "BENEFICÍOS"
+  title-EN: "BENEFITS"
+  url: "#benef"
+- section: nav
+  title-PT: "SEJA MEMBRO"
+  title-EN: "MEMBERSHIP"
+  url: "#memb"
+- section: nav
+  title-PT: "VANTANGENS"
+  title-EN: "ADVANTAGES"
+  url: "#vant"
+
+
+# Galeria Tabs
+
+- section: galeria-tabs
+  title-PT: "O Time Property Club"
+  title-EN: "EN"
+  id: 00
+
+- section: galeria-tabs
+  title-PT: "Acomodações"
+  title-EN: "EN"
+  id: 01
+
+- section: galeria-tabs
+  title-PT: "Serviços"
+  title-EN: "EN"
+  id: 02
+
+- section: galeria-tabs
+  title-PT: "Lazer"
+  title-EN: "EN"
+  id: 03
+
+
+#Beneficios
+- section: beneficios
+  title-PT: "Benefícios do Time Property Club"
+  title-EN: "EN"
+  id: 00
+
+- section: beneficios
+  title-PT: "O Time Property Club não é apenas um investimento na felicidade da sua família. É também um ótimo investimento financeiro, com segurança e todas as garantias que você precisa."
+  title-EN: "EN"
+  id: 01
+
+#Beneficios
+- section: seja-membro
+  title-PT: "É MUITO FÁCIL SE TORNAR <br> UM MEMBRO DO TIME PROPERTY CLUB"
+  title-EN: "EN"
+  id: 00
+
+#Vantagens
+- section: vantagens
+  title-PT: "CLUBE DE VANTAGENS"
+  title-EN: "EN"
+  id: 00
+
+- section: vantagens
+  title-PT: "Seja membro exclusivo do Time Property Club e ganhe ainda mais benefícios." 
+  title-EN: "EN"
+  id: 01

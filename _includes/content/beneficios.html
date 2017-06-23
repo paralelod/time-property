@@ -2,11 +2,19 @@
 <section>
 	<div class="row">
 		<div class="small-12 columns text-center">
-			<h2>BENEFÍCIOS DO TIME PROPERTY CLUB</h2>
-			<h5>O Time Property Club é um excelente investimento financeiro, já que possui facilidades
-					de pagamento, segurança jurídica e todas as garantias que você precisa.
-					E o melhor de tudo é que o maior retorno deste investimento vem
-					em felicidade para você e sua família
+			<h2>
+			{% for string in site.data.strings %}
+				{% if string.section == "beneficios" and string.id == 00 %}
+					{{ string.title-PT }}
+				{% endif %}
+            {% endfor %}
+			</h2>
+			<h5>
+			{% for string in site.data.strings %}
+				{% if string.section == "beneficios" and string.id == 01 %}
+					{{ string.title-PT }}
+				{% endif %}
+            {% endfor %}
 			</h5>
 		</div>
 	</div>

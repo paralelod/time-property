@@ -1,8 +1,13 @@
 <section id="experiencia" class="bg-azulado">
-   
     <div class="row">
         <div class="small-12 text-center" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
-            <h1>O TIME PROPERTY CLUB</h1>
+            <h1>
+            {% for string in site.data.strings %}
+                {% if string.section == "galeria-tabs" and string.id == 00 %}
+                    {{ string.title-PT }}
+                {% endif %}
+            {% endfor %}
+            </h1>
         </div>
     </div>
 </section>
@@ -10,23 +15,32 @@
     <div class="row">
         <div class="small-12 columns">
             <ul class="tabs show-for-medium-up" data-tab>
-                <li class="tab-title active"><a href="#panel1">Apartamentos</a></li>
-                <li class="tab-title"><a href="#panel2">Serviços</a></li>
-                <li class="tab-title"><a href="#panel3">Lazer</a></li>
+                {% for string in site.data.strings %}
+                    {% if string.section == "galeria-tabs" and string.id == 01 %}
+                        <li class="tab-title active"><a href="#panel1">{{ string.title-PT }}</a></li>
+                    {% endif %}
+                     {% if string.section == "galeria-tabs" and string.id == 02 %}
+                        <li class="tab-title active"><a href="#panel1">{{ string.title-PT }}</a></li>
+                    {% endif %}
+                    {% if string.section == "galeria-tabs" and string.id == 03 %}
+                        <li class="tab-title active"><a href="#panel1">{{ string.title-PT }}</a></li>
+                    {% endif %}
+                {% endfor %}
             </ul>
             <dl class="accordion" data-accordion>
 
                 <dd class="accordion-navigation">
                 <a href="#panel1" class="show-for-small-only">Accordion 1</a>
                 <div id="panel1" class="content active">
-                    <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3" data-equalizer>
+                    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3" data-equalizer>
                         {% for item in site.data.content %}
                                 {% if item.category == "galeria-tp" %}
                                     {% if item.subcategory == "apartamentos" %}
                                     {% capture file-name %}{{ item.file }}{% endcapture %}
+                                    {% capture description-pt %}{{ item.desc-PT }}{% endcapture %}
                                     {% include content/grid-list-block.html 
                                         file= file-name 
-                                        description= "Escritorio" 
+                                        description= description-pt
                                         img-class= "full-width"
                                     %}
                                 {% endif %}
@@ -36,14 +50,15 @@
                 </div>
                 <a href="#panel2" class="show-for-small-only">Accordion 2</a>
                 <div id="panel2" class="content">
-                   <ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4" data-equalizer>
+                <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3" data-equalizer>
                         {% for item in site.data.content %}
                                 {% if item.category == "galeria-tp" %}
                                     {% if item.subcategory == "serviços" %}
                                     {% capture file-name %}{{ item.file }}{% endcapture %}
+                                    {% capture description-pt %}{{ item.desc-PT }}{% endcapture %}
                                     {% include content/grid-list-block.html 
                                         file= file-name 
-                                        description= "Escritorio" 
+                                        description= description-pt
                                         img-class= "full-width"
                                     %}
                                 {% endif %}
@@ -58,9 +73,10 @@
                                 {% if item.category == "galeria-tp" %}
                                     {% if item.subcategory == "lazer" %}
                                     {% capture file-name %}{{ item.file }}{% endcapture %}
+                                    {% capture description-pt %}{{ item.desc-PT }}{% endcapture %}
                                     {% include content/grid-list-block.html 
                                         file= file-name 
-                                        description= "Escritorio" 
+                                        description= description-pt
                                         img-class= "full-width"
                                     %}
                                 {% endif %}

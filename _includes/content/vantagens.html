@@ -1,9 +1,19 @@
 <section>
 	<div class="row">
 		<div class="small-12 columns text-center">
-			<h2>CLUBE DE VANTAGENS</h2>
+			<h2>
+				{% for string in site.data.strings %}
+					{% if string.section == "vantagens" and string.id == 00 %}
+						{{ string.title-PT }}
+					{% endif %}
+            	{% endfor %}
+			</h2>
 			<h5>
-				Seja membro exclusivo do Time Property Club e ganhe ainda mais benefícios.
+				{% for string in site.data.strings %}
+					{% if string.section == "vantagens" and string.id == 01 %}
+						{{ string.title-PT }}
+					{% endif %}
+            	{% endfor %}
 			</h5>
 		</div>
 	</div>
