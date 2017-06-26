@@ -1,5 +1,5 @@
-baseurl: time-property
-url: 'http://lab.diogorusso.com'
+baseurl: ''
+url: 'http://lab.diogorusso.com/time-property'
 markdown: kramdown
 exclude:
   - Gemfile
