@@ -1,69 +1,72 @@
- $('.slider').slick({
+ 
+ /*
+
+ */
+ 
+ 
+ $('.slider-plantas').slick({
  	slidesToShow: 1,
  	slidesToScroll: 1,
  	arrows: true,
  	fade: false,
+	// centerMode: true,
 	// dots: true,
- 	// asNavFor: '.slider-nav-thumbnails',
+ 	asNavFor: '.slider-plantas-thumbs',
+	// prevArrow: '<div class="slick-prev"><i class="i-chev-left-thin"></i><span class="sr-text">Previous</span></div>',
+  	// nextArrow: '<div class="slick-next"><i class="i-chev-right-thin"></i><span class="sr-text">Next</span></div>'
 
  });
 
-//  $('.slider-nav-thumbnails').slick({
-//  	slidesToShow: 5,
-//  	slidesToScroll: 1,
-//  	asNavFor: '.slider',
-//  	dots: true,
-//  	//	centerMode: true,
-//  	focusOnSelect: true
-//  });
+ $('.slider-plantas-thumbs').slick({
+ 	slidesToShow: 5,
+ 	slidesToScroll: 1,
+ 	asNavFor: '.slider-plantas',
+ 	// dots: true,
+ 	//	centerMode: true,
+ 	focusOnSelect: true
+ });
 
 
  //remove active class from all thumbnail slides
- $('.slider-nav-thumbnails .slick-slide').removeClass('slick-active');
+ $('.slider-plantas-thumbs').removeClass('slick-active');
 
  //set active class to first thumbnail slides
- $('.slider-nav-thumbnails .slick-slide').eq(0).addClass('slick-active');
+ $('.slider-plantas-thumbs').eq(0).addClass('slick-active');
 
  // On before slide change match active thumbnail to current slide
  $('.slider').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
  	var mySlideNumber = nextSlide;
- 	$('.slider-nav-thumbnails .slick-slide').removeClass('slick-active');
- 	$('.slider-nav-thumbnails .slick-slide').eq(mySlideNumber).addClass('slick-active');
+ 	$('.slider-plantas-thumbs').removeClass('slick-active');
+ 	$('.slider-plantas-thumbs').eq(mySlideNumber).addClass('slick-active');
 });
-// $('.slick-codepen').slick({
-//   draggable: false,
-//   accessibility: true,
-//   centerMode: true,
-//   variableWidth: true,
-//   slidesToShow: 3,
-//   speed: 800,
-//   arrows: true,
-//   dots: true,
-//   swipeToSlide: true,
-//   infinite: true,
-//   autoplay: true,
-//   autoplaySpeed: 3200
-// });
 
 
-// var prevSlideInterval = null,
-//     nextSlideInterval = null;
+ $('.slider-frases').slick({
+ 	// slidesToShow: 1,
+ 	// slidesToScroll: 1,
+	// autoPlay: true,
+	// autoplaySpeed:1000,
+    // speed:900, 
+ 	// arrows: true,
+ 	// fade: false,
+	autoplay:true,
+    autoplaySpeed:7000,
+    speed:900,
+    slidesToShow:1,
+    slidesToScroll:1,
+    pauseOnHover:false,
+    dots:true,
+    pauseOnDotsHover:true,
+    cssEase:'linear',
+    fade:true,
+    draggable:false,
+    // prevArrow:'<button class="PrevArrow"></button>',
+    // nextArrow:'<button class="NextArrow"></button>', 
+	 
+	// centerMode: true,
+	// dots: true,
+ 	// asNavFor: '.slider-plantas-thumbs',
+	// prevArrow: '<div class="slick-prev"><i class="i-chev-left-thin"></i><span class="sr-text">Previous</span></div>',
+  	// nextArrow: '<div class="slick-next"><i class="i-chev-right-thin"></i><span class="sr-text">Next</span></div>'
 
-// function prevSlideAnimation() { $('.slick-codepen').slickPrev(); };
-// function nextSlideAnimation() { $('.slick-codepen').slickNext(); };
-
-// $('.slick-prev').on('mouseenter', function() {
-//   prevSlideInterval = window.setInterval(function(){ prevSlideAnimation() }, 200);
-// });
-
-// $('.slick-prev').on('mouseleave', function() {
-//   window.clearInterval(prevSlideInterval);
-// });
-
-// $('.slick-next').on('mouseenter', function(){
-//   nextSlideInterval = window.setInterval(function(){ nextSlideAnimation() }, 200);
-// });
-
-// $('.slick-next').on('mouseleave', function() {
-//   window.clearInterval(nextSlideInterval);
-// });
+ });
