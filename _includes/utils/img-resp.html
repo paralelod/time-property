@@ -3,9 +3,9 @@
 <picture>
     <img sizes="(max-width: {{ include.max-wid }}px)100vw, {{ include.max-wid }}px"
         srcset="{% for break in breakpoints %}
-               ./assets/img/{{ break }}/{{ include.file }} {{ break }}w,
+               /assets/img/{{ break }}/{{ include.file }} {{ break }}w,
             {% endfor %}"
-        data-src="./assets/img/{{ include.max-wid }}/{{ include.file }}"
+        data-src="/assets/img/{{ include.max-wid }}/{{ include.file }}"
         alt="{{ include.alt }} {{ breakpoints }}"
         class="full-width">
 </picture>

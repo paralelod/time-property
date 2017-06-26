@@ -1,0 +1,11 @@
+{% assign section =  include.section %}
+{% assign id =  include.id %}
+
+{% for string in site.data.strings %}
+    {% if string.section == section and string.id == id and page.lang == "pt" %}
+        {{ string.title-PT }}
+    {% endif %}
+    {% if string.section == section and string.id == id and page.lang == "en" %}
+        {{ string.title-EN }}
+    {% endif %}
+{% endfor %}

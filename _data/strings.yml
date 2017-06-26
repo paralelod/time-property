@@ -1,25 +1,37 @@
 # NAV 
 - section: menu
+  id: 00
   title-PT: "menu"
   title-EN: "menu"
   url: "exp"
+- section: menu
+  id: 01
+  title-PT: "PT"
+  title-EN: "EN"
+  url: "/"
+  url-EN: "/en"
 - section: nav
+  id: 01
   title-PT: "A EXPERIÊNCIA"
   title-EN: "EXPERIENCE"
   url: "exp"
 - section: nav
+  id: 02
   title-PT: "O LOCAL"
   title-EN: "THE PLACE"
   url: "#local"
 - section: nav
+  id: 03
   title-PT: "BENEFICÍOS"
   title-EN: "BENEFITS"
   url: "#benef"
 - section: nav
+  id: 04
   title-PT: "SEJA MEMBRO"
   title-EN: "MEMBERSHIP"
   url: "#memb"
 - section: nav
+  id: 05
   title-PT: "VANTANGENS"
   title-EN: "ADVANTAGES"
   url: "#vant"

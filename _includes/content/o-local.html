@@ -4,21 +4,21 @@
 		{% if item.category == "local" and item.id == 01 %}
 			<div class="small-12 columns show-for-small-only">
 				<span><!--<span  data-aos="fade" data-aos-delay="100" data-aos-duration="750">-->
-					{% include img/resp.html max-wid="1042" b-points="1042|791|480" file="quadrado_01.jpg" alt="time property" %}
+					{% capture file-item-01 %}{{ item.file }}{% endcapture %}
+					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file=file-item-01 alt="time property" %}
 				</span>
 			</div> 
 			<div class="small-12 medium-6 large-6 columns v-center">
 				<div class="content-box" ><!--<div class="content-box" data-aos="fade-right">-->
 					<div class="margin-title">
-					<h4>{{ item.title-PT }}</h4>
+					<h4>{% include lang/content-title.html %}</h4>
 					</div>
-					<p>{{ item.desc-PT }}</p>
+					<p>{% include lang/content-desc.html %}</p>
 				</div>
 			</div>
 			<div class="small-12  show-for-medium-up  medium-6 large-6 columns">
 				<span><!--<span  data-aos="fade" data-aos-delay="100" data-aos-duration="750">-->
-					
-					{% include img/resp.html max-wid="1042" b-points="1042|791|480" file="quadrado_01.jpg" alt="time property" %}
+					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file=file-item-01 alt="time property" %}
 				</span>
 			</div> 
 		{% endif %}
@@ -31,15 +31,16 @@
 		{% if item.category == "local" and item.id == 02 %}
 			<div class="small-12 medium-6 large-6 columns">
 					<span><!--<span  data-aos="fade" data-aos-delay="100" data-aos-duration="750">-->
-					{% include img/resp.html max-wid="1042" b-points="1042|791|480" file="quadrado_02.jpg" alt="time property" %}
+						{% capture file-item-02 %}{{ item.file }}{% endcapture %}
+					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file=file-item-02 alt="time property" %}
 				</span>
 			</div> 
 			<div class="small-12 medium-6 large-6 columns v-center-h-76">
 					<div class="content-box" ><!--<div class="content-box" data-aos="fade-right">-->
 					<div class="margin-title">
-					<h4>{{ item.title-PT }}</h4>
+					<h4>{% include lang/content-title.html %}</h4>
 					</div>
-					<p>{{ item.desc-PT }}</p>
+					<p>{% include lang/content-desc.html %}</p>
 				</div>
 			</div>
 		{% endif %}

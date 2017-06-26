@@ -2,11 +2,7 @@
 	<div class="row">
 		<div class="small-12 columns text-center">
 			<h2>
-				{% for string in site.data.strings %}
-					{% if string.section == "seja-membro" and string.id == 00 %}
-						{{ string.title-PT }}
-					{% endif %}
-            	{% endfor %}
+				{% include lang/string-loop.html section="seja-membro" id= 00 %}
 			</h2>
 		</div>
 	</div>
@@ -18,10 +14,10 @@
 						<li>
 							<div data-equalizer-watch data-aos="" data-aos-delay="" data-aos-duration="">
 								<img 
-									data-src="./assets/img/{{ item.file }}" 
-									alt="{{ item.desc-PT }}" 
+									data-src="/assets/img/{{ item.file }}" 
+									alt="{% include lang/content-desc.html %}" 
 									src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"/ >
-								<p style="background:#fff; padding:1rem;">{{ item.desc-PT }}</p>
+								<p style="background:#fff; padding:1rem;">{% include lang/content-desc.html %}</p>
 							</div>
 						</li>
 					{% endif %}

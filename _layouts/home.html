@@ -3,9 +3,37 @@ layout: default
 ---
 {% include nav.html %}
 {% include loading-main.html %}
-{% include masthead.html %}
 <div class="content">
-    {{ content }}
+        <!--FORM MASTHEAD -->
+        {% include masthead.html %}
+        <!--FORM CADASTRO-->
+        {% include content/form-cadastro.html %}
+
+        <!--SLIDER FRASES-->
+        {% include content/slider-frases.html %}
+
+        <!--GALERIA ACCORDION-->
+        {% include content/galeria-tabs.html %}
+
+        <!-- LOCAL -->
+        {% include content/o-local.html%}
+
+        <!-- PLANTAS -->
+        {% include content/plantas.html %}
+
+        <!--BENEFICIOS-->
+        {% include content/beneficios.html %}
+
+        <!--SEJA MEMBRO-->
+        {% include content/seja-membro.html %}
+
+
+        <!--VANTAGENS-->
+        {% include content/vantagens.html %}
+
+
+        <!--FORM CADASTRO-->
+        {% include content/form-cadastro.html %}
 </div>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">

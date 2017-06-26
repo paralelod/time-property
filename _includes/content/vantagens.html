@@ -2,18 +2,10 @@
 	<div class="row">
 		<div class="small-12 columns text-center">
 			<h2>
-				{% for string in site.data.strings %}
-					{% if string.section == "vantagens" and string.id == 00 %}
-						{{ string.title-PT }}
-					{% endif %}
-            	{% endfor %}
+				{% include lang/string-loop.html section="vantagens" id= 00 %}
 			</h2>
 			<h5>
-				{% for string in site.data.strings %}
-					{% if string.section == "vantagens" and string.id == 01 %}
-						{{ string.title-PT }}
-					{% endif %}
-            	{% endfor %}
+				{% include lang/string-loop.html section="vantagens" id= 01 %}
 			</h5>
 		</div>
 	</div>
@@ -22,13 +14,7 @@
 			<ul class="small-block-grid-2 medium-block-grid-4 large-block-grid-4" data-equalizer>
 				{% for item in site.data.content %}
 					{% if item.category == "vantagens" %}
-					{% capture description-content %}{{ item.desc-PT }}{% endcapture %}
-					{% capture file-name %}{{ item.file }}{% endcapture %}
-						{% include content/grid-list-block.html 
-							file= file-name 
-							description= description-content 
-							img-class="full-width"
-						%}
+						{% include utils/content-loop.html %}
 					{% endif %}
 				{% endfor %}
 			</ul>
