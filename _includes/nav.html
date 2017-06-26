@@ -45,12 +45,12 @@
                 {% if string.section == "menu" and string.id == 01 %}
                 <li>
                     {% if page.lang == "en" %}
-                    <a class="page-scroll" href="{{ string.url }}">
+                    <a class="page-scroll" href="{{ site.url }}/{{ string.url }}">
                        {{ string.title-PT }}
                     </a>
                     {% endif %}
                     {% if page.lang == "pt" %}
-                    <a class="page-scroll" href="{{ string.url-EN }}">
+                    <a class="page-scroll" href="{{ site.url }}/{{ string.url-EN }}">
                         {{ string.title-EN }}
                     </a>
                     {% endif %}
