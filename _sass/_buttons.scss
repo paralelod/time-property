@@ -12,8 +12,9 @@ input[type="submit"]{
 	background: $btn-bg; 
 	color: $btn-txt;
 	margin: 0;
-  border: solid $theme-light-color 0.1rem;
+  border: solid #62b4c1 0.1rem;
   padding:0.75rem 1.5rem;
+  font-size: 0.9rem;
 }
 
 
@@ -21,7 +22,7 @@ input[type="submit"]{
 
   background: $btn-hover-bg; 
 	color: $btn-hover-txt;
-  border: solid 0.1rem;
+  border: solid #62b4c1 0.1rem;
   
 
 }  

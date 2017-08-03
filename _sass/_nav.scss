@@ -1,16 +1,17 @@
 
 .anim-menu {
-  transition: background 0.5s ease;
+  transition: background 0.95s ease;
   background:transparent;
   position: fixed;
   width: 100%;
   z-index: 998 !important;
+  visibility: hidden;
 
   .top-bar-section > ul {
-  visibility: hidden; 
   z-index: 99;
   padding-right: 1.5rem;
-}
+  padding-top: 0.4rem;
+  }
 
 
   .top-bar  { background:transparent !important;}
@@ -27,16 +28,8 @@
   }
 
 .name img {
-    max-height: 3rem;
+    max-height: 48px;
     padding: 1rem 0 0 2rem;
-    max-width:inherit;
-}
-
-@media screen and (max-width: 640px) {
-    .name img {
-    max-height: 2.35rem;
-}
-    
 }
 
 
@@ -57,17 +50,13 @@
 // hamburger menu
 
 .top-bar .toggle-topbar.menu-icon a span::after{
-    box-shadow: 0 0 0 1px #223ded, 0 7px 0 1px #223ded, 0 14px 0 1px #223ded !important;
+    box-shadow: 0 0 0 1px #fff, 0 7px 0 1px #fff, 0 14px 0 1px #fff !important;
 }
 
 
-.toggle-topbar{
-  visibility: hidden;
-}
 
 
 .top-bar-section > ul {
-  visibility: hidden; 
   z-index: 99;
   padding-right: 1.5rem;
 }
@@ -141,23 +130,15 @@
 
 .undocked   {
   padding-bottom: 1rem;
-  transition: background 0.5s ease !important;
+  transition: background 0.75s ease !important;
   background: $top-bar-bg-undocked !important;
   visibility: visible !important;
 }
 
 
-.undocked .toggle-topbar{
-  visibility: visible !important;
-}
 
 
 
-
-// .undocked .name img {
-//    max-height: 2.5rem;
-//   padding: 1rem 0 0 2rem;
-// }
 
 
 // undocked top bar 
@@ -182,7 +163,6 @@
     color: $top-bar-txt-undocked !important;
     text-decoration: none;
   }
-  visibility: visible;
 }
 
 
@@ -200,7 +180,7 @@
 
 .undocked .top-bar.expanded{
   transition: height 0.5s ease;
-  height:25rem !important;
+  height:20rem !important;
 }
 .undocked .top-bar.expanded .toggle-topbar a{
   color: $top-bar-txt-undocked !important;

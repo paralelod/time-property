@@ -39,7 +39,7 @@ $preloader-spinner: $theme-dark-color;
 
 // $top-bar-bg: $theme-dark-color;
 $top-bar-bg: transparent; //use transparent if Anim Menu
-$top-bar-bg-undocked: $theme-dark-color;
+$top-bar-bg-undocked: #414042;
 $top-bar-txt: $theme-light-color;
 $top-bar-txt-undocked: $theme-light-color;
 $top-bar-expanded-bg: $transparent;
@@ -55,15 +55,15 @@ $tab-bar-bg-right: $theme-dark-color;
 // BUTONS
 
 
-$btn-bg: $theme-dark-color;
+$btn-bg: rgba(0, 0, 0, 0.25);
 $btn-txt: $theme-light-color;
 
 
 $btn-bg-light: $theme-light-color;
 $btn-txt-light: $theme-dark-color;
 
-$btn-hover-bg: $theme-light-color;
-$btn-hover-txt: $theme-dark-color;
+$btn-hover-bg: #62b4c1;
+$btn-hover-txt: $theme-light-color;
 
 $btn-hover-bg-ligtht: $theme-dark-color;
 $btn-hover-txt-light: $theme-light-color;
