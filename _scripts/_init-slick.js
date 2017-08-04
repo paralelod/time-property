@@ -55,7 +55,7 @@
     slidesToShow:1,
     slidesToScroll:1,
     pauseOnHover:false,
-    dots:true,
+    dots:false,
     pauseOnDotsHover:true,
     cssEase:'linear',
     fade:true,
