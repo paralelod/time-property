@@ -24,18 +24,18 @@
 
  });
 
- $('.slider-plantas-thumbs').slick({
- 	slidesToShow: 5,
- 	slidesToScroll: 1,
- 	asNavFor: '.slider-plantas',
- 	// dots: true,
- 	//	centerMode: true,
- 	focusOnSelect: true
- });
+//  $('.slider-plantas-thumbs').slick({
+//  	slidesToShow: 5,
+//  	slidesToScroll: 1,
+//  	asNavFor: '.slider-plantas',
+//  	// dots: true,
+//  	//	centerMode: true,
+//  	focusOnSelect: true
+//  });
 
 
  //remove active class from all thumbnail slides
- $('.slider-plantas-thumbs').removeClass('slick-active');
+//  $('.slider-plantas-thumbs').removeClass('slick-active');
 
  //set active class to first thumbnail slides
  $('.slider-plantas-thumbs').eq(0).addClass('slick-active');
@@ -65,7 +65,7 @@
     dots:true,
     pauseOnDotsHover:true,
     cssEase:'linear',
-    // fade:true,
+    fade:true,
     draggable:false,
     // prevArrow:'<button class="PrevArrow"></button>',
     // nextArrow:'<button class="NextArrow"></button>', 
