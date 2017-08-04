@@ -5,13 +5,20 @@
  
  
  $('.slider-plantas').slick({
- 	slidesToShow: 1,
- 	slidesToScroll: 1,
- 	arrows: true,
- 	fade: false,
-	// centerMode: true,
+ 	autoplay:true,
+    autoplaySpeed:5000,
+    speed:900,
+    slidesToShow:1,
+    slidesToScroll:1,
+    pauseOnHover:false,
+    dots:true,
+    // pauseOnDotsHover:true,
+    // cssEase:'linear',
+    fade:true,
+    draggable:true,
+	centerMode: true,
 	// dots: true,
- 	asNavFor: '.slider-plantas-thumbs',
+ 	// asNavFor: '.slider-plantas-thumbs',
 	// prevArrow: '<div class="slick-prev"><i class="i-chev-left-thin"></i><span class="sr-text">Previous</span></div>',
   	// nextArrow: '<div class="slick-next"><i class="i-chev-right-thin"></i><span class="sr-text">Next</span></div>'
 
@@ -55,7 +62,7 @@
     slidesToShow:1,
     slidesToScroll:1,
     pauseOnHover:false,
-    dots:false,
+    dots:true,
     pauseOnDotsHover:true,
     cssEase:'linear',
     fade:true,

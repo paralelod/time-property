@@ -1,6 +1,6 @@
 .slick-arrow{
     position: absolute;
-    top: 35%;
+    top: 50%;
     background: #000;
 }
 
@@ -16,3 +16,36 @@
     left: 0;
     z-index: 3
 } 
+
+
+.slick-dots{
+  position:absolute;
+  height:5px;
+  background:rgba(255,255,255,.20);
+  bottom:0px;
+  width:100%;
+  left:0px;
+  padding:0px;
+  margin:0px;
+  list-style-type:none;
+}
+.slick-dots li button{display:none;}
+.slick-dots li{
+  float:left;
+  width:0px;
+  height:5px;
+  background:#0094ca;
+  position:absolute;
+  left:0px;
+  bottom:0px;
+}
+
+.slick-dots li.slick-active{
+  width:100%;
+  animation:ProgressDots 11s both;
+}
+
+
+@-webkit-keyframes ProgressDots{from{width:0px;}to{width:100%;}}
+@keyframes ProgressDots{from{width:0px;}to{width:100%;}}
+
