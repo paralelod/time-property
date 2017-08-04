@@ -16,7 +16,7 @@
     // cssEase:'linear',
     // fade:true,
     draggable:true,
-	centerMode: true,
+	// centerMode: true,
 	// dots: true,
  	// asNavFor: '.slider-plantas-thumbs',
 	// prevArrow: '<div class="slick-prev"><i class="i-chev-left-thin"></i><span class="sr-text">Previous</span></div>',
