@@ -3,7 +3,7 @@
   id: 00
   title-PT: "menu"
   title-EN: "menu"
-  url: "exp"
+  url: "/"
 - section: menu
   id: 01
   title-PT: "PT"
@@ -14,7 +14,7 @@
   id: 01
   title-PT: "A EXPERIÊNCIA"
   title-EN: "EXPERIENCE"
-  url: "exp"
+  url: "#exp"
 - section: nav
   id: 02
   title-PT: "O LOCAL"
