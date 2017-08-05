@@ -1,3 +1,7 @@
+
+// set toggle topbar at foundation/scss/_top-bar.scss line 78
+// $topbar-breakpoint: #{lower-bound($large-range)} !default; // Change to 9999px for always mobile layout
+
 //----------- import fonts ----------//
 
 @import url('https://fonts.googleapis.com/css?family=Varela+Round'),
