@@ -293,8 +293,8 @@
     
 <section class="hero full-height relative">
   <div class="intro center-center">
-    <div class="small-centered medium-centered medium-6 large-centered large-7 columns text-center">
-      <img src="http://lab.diogorusso.com/time-property/assets/img/logo-white.svg" style="min-width:150px; margin-bottom:2rem;">
+    <div class="small-centered medium-centered small-12 medium-9 large-centered large-7 columns text-center">
+      <img src="http://lab.diogorusso.com/time-property/assets/img/logo-white.svg" style="min-width:200px; margin-bottom:2rem;">
       <h4><a href="#" data-reveal-id="videoModal" class="button btn-round" style="min-width:200px;">ASSISTIR VÍDEO <img src="http://lab.diogorusso.com/time-property/assets/img/icon-play.svg" alt="paly video" style="height:25px;"></a></h4>
       <!--<h4><a href="#quem-somos" class="page-scroll">saiba mais</a></h4>-->
     </div>
@@ -330,8 +330,11 @@
     </div>
   </div>
 </section> -->
-<iframe id="JotFormIFrame-72156412298660" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="./form/form.html" frameborder="0" style="width:100%; height:569px; border:none;" scrolling="no"> </iframe> 
+<div class="row">
+  <iframe id="JotFormIFrame-72156412298660" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="./form/form.html" frameborder="0" style="width:90%; height:569px; border:none;" scrolling="no"> </iframe> 
 <script type="text/javascript"> var ifr = document.getElementById("JotFormIFrame-72156412298660"); if(window.location.href && window.location.href.indexOf("?") > -1) { var get = window.location.href.substr(window.location.href.indexOf("?") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get; ifr.src = src; } } window.handleIFrameMessage = function(e) { var args = e.data.split(":"); if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[2]); } else { iframe = document.getElementById("JotFormIFrame"); } if (!iframe) return; switch (args[0]) { case "scrollIntoView": iframe.scrollIntoView(); break; case "setHeight": iframe.style.height = args[1] + "px"; break; case "collapseErrorPage": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + "px"; } break; case "reloadPage": window.location.reload(); break; } var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false; if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) { var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*"); } }; if (window.addEventListener) { window.addEventListener("message", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent("onmessage", handleIFrameMessage); } </script>
+
+</div>
  
 
     <!--SLIDER FRASES-->
@@ -3452,8 +3455,11 @@
     </div>
   </div>
 </section> -->
-<iframe id="JotFormIFrame-72156412298660" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="./form/form.html" frameborder="0" style="width:100%; height:569px; border:none;" scrolling="no"> </iframe> 
+<div class="row">
+  <iframe id="JotFormIFrame-72156412298660" onload="window.parent.scrollTo(0,0)" allowtransparency="true" src="./form/form.html" frameborder="0" style="width:90%; height:569px; border:none;" scrolling="no"> </iframe> 
 <script type="text/javascript"> var ifr = document.getElementById("JotFormIFrame-72156412298660"); if(window.location.href && window.location.href.indexOf("?") > -1) { var get = window.location.href.substr(window.location.href.indexOf("?") + 1); if(ifr && get.length > 0) { var src = ifr.src; src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get; ifr.src = src; } } window.handleIFrameMessage = function(e) { var args = e.data.split(":"); if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[2]); } else { iframe = document.getElementById("JotFormIFrame"); } if (!iframe) return; switch (args[0]) { case "scrollIntoView": iframe.scrollIntoView(); break; case "setHeight": iframe.style.height = args[1] + "px"; break; case "collapseErrorPage": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + "px"; } break; case "reloadPage": window.location.reload(); break; } var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false; if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) { var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*"); } }; if (window.addEventListener) { window.addEventListener("message", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent("onmessage", handleIFrameMessage); } </script>
+
+</div>
   
 </div>
 <!--<div class="back-to-top">
@@ -3481,7 +3487,7 @@
         <div class="  small-12 medium-4 large-4 columns">
             <h4 class="text-center">Promotora</h4>
             <p>
-            Email - atendimento@timeproperty.com.br
+            <!-- Email - atendimento@timeproperty.com.br -->
             Telefone - 55.85.21811413
             Av. Santos Dumont, nº 3131 - A , S. 1024
             Edificio Del Passeo
