@@ -14,7 +14,7 @@
     dots:true,
     // pauseOnDotsHover:true,
     // cssEase:'linear',
-    // fade:true,
+    fade:true,
     draggable:true,
 	// centerMode: true,
 	// dots: true,

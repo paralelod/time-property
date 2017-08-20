@@ -1,23 +1,23 @@
-<section id="memb">
+<section id="memb" style="background:#e4e4e4; padding-top:3rem">
 	<div class="row">
-		<div class="small-12 columns text-center">
-			<h2>
+		<div class="small-12 columns text-center" style="padding-top:3rem; padding-bottom:3rem;">
+			<h3>
 				{% include lang/string-loop.html section="seja-membro" id= 00 %}
-			</h2>
+			</h3>
 		</div>
 	</div>
-	<div class="row">
+	<div class="row" style="padding-top:3rem; padding-bottom:3rem;">
 		<div class="small-12 columns text-center">
-			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3" data-equalizer>
+			<ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
 				{% for item in site.data.content %}
 					{% if item.category == "seja-membro" %}
 						<li>
-							<div data-equalizer-watch data-aos="" data-aos-delay="" data-aos-duration="">
+							<div data-aos="" data-aos-delay="" data-aos-duration="">
 								<img 
 									data-src="{{ site.url }}/assets/img/{{ item.file }}" 
 									alt="{% include lang/content-desc.html %}" 
 									src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"/ >
-								<p style="background:#fff; padding:1rem;">{% include lang/content-desc.html %}</p>
+								<p style="padding:1rem;">{% include lang/content-desc.html %}</p>
 							</div>
 						</li>
 					{% endif %}

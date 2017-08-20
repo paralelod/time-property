@@ -1,13 +1,13 @@
-<section id="exp" class="bg-azulado">
+<section id="exp" class="bg-azulado" style="padding-top:3rem; padding-bottom:3rem;">
     <div class="row">
         <div class="small-12 text-center" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
-            <h1>
+            <h2>
                 {% include lang/string-loop.html section="galeria-tabs" id= 00 %}
-            </h1>
+            </h2>
         </div>
     </div>
 </section>
-<section class="bg-praia">
+<section class="bg-praia" style="padding-bottom:13rem;">
     <div class="row">
         <div class="small-12 columns">
             <ul class="tabs show-for-medium-up" data-tab>
@@ -42,9 +42,11 @@
                             {% endfor %}
                         </ul>
                     </div>
-                    <a href="#panel2" class="show-for-small-only">Accordion 2</a>
-                    <div id="panel2" class="content">
-                    <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3" data-equalizer>
+                    <a href="#panel2" class="show-for-small-only">
+                        {% include lang/string-loop.html section="galeria-tabs" id= 02 %}
+                    </a>
+                    <div id="panel2" class="content" data-equalizer="gal">
+                        <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3">
                             {% for item in site.data.content %}
                                 {% if item.category == "galeria-tp" and item.subcategory == "serviços" %}
                                     {% include utils/content-loop.html %}
@@ -52,9 +54,11 @@
                             {% endfor %}
                         </ul>
                     </div>
-                    <a href="#panel3" class="show-for-small-only">Accordion 3</a>
-                    <div id="panel3" class="content">
-                        <ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-3" data-equalizer>
+                    <a href="#panel3" class="show-for-small-only">
+                        {% include lang/string-loop.html section="galeria-tabs" id= 03 %}
+                    </a>
+                    <div id="panel3" class="content" >
+                        <ul class="small-block-grid-1 medium-block-grid-3 large-block-grid-3" >
                             {% for item in site.data.content %}
                                 {% if item.category == "galeria-tp" and item.subcategory == "lazer" %}
                                     {% include utils/content-loop.html %}

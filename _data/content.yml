@@ -11,7 +11,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Apartamentos de 80 m2"
-  desc-EN: "EN"
+  desc-EN: "80 m2 Apartments"
 
 # column item
 - category: "galeria-tp"
@@ -23,7 +23,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Apartamentos de 140 m2"
-  desc-EN: "EN"
+  desc-EN: "140 m2 Apartments"
 
 # column item
 - category: "galeria-tp"
@@ -35,7 +35,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Apartamentos luxuosos, padrão A "
-  desc-EN: "EN"
+  desc-EN: "Luxury apartments, standard A"
 
 # column item
 - category: "galeria-tp"
@@ -47,7 +47,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Sofisticação e conforto garantidos"
-  desc-EN: "EN"
+  desc-EN: "Sophistication and comfort guaranteed"
 
 # column item
 - category: "galeria-tp"
@@ -59,7 +59,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Apartamentos mobiliados"
-  desc-EN: "EN"
+  desc-EN: "Furnished apartments"
 
 # column item
 - category: "galeria-tp"
@@ -71,7 +71,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Clique para ver + fotos"
-  desc-EN: "EN"
+  desc-EN: "Click to see more photos"
 
 # column item
 - category: "galeria-tp"
@@ -82,8 +82,8 @@
   file: "box_07.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Café da manhã incluído"
-  desc-EN: "EN"
+  desc-PT: "Café da manhã incluído &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
+  desc-EN: "Breakfast included"
 
 # column item
 - category: "galeria-tp"
@@ -95,7 +95,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Bar e restaurante com serviço na praia"
-  desc-EN: "EN"
+  desc-EN: "Bar and restaurant with service on the beach"
 
 # column item
 - category: "galeria-tp"
@@ -107,7 +107,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Camareira e serviço de limpeza nos apartamentos"
-  desc-EN: "EN"
+  desc-EN: "Room maid and cleaning service in the apartments"
 
 # column item
 - category: "galeria-tp"
@@ -119,7 +119,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Transfer do aeroporto de Fortaleza e para outros destinos turísticos"
-  desc-EN: "EN"
+  desc-EN: "Transfer from the Fortaleza airport and to other tourist destinations"
 
 # column item
 - category: "galeria-tp"
@@ -130,7 +130,19 @@
   file: "box_11.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Segurança 24h"
+  desc-PT: "Segurança 24h &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
+  desc-EN: "24h Security"
+
+# column item
+- category: "galeria-tp"
+  subcategory: "serviços"
+  col-lg : 3
+  col-md: 4
+  col-sm: 2
+  file: "box_12.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024"
+  desc-PT: "Wi-fi em todos os apartamentos &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
   desc-EN: "EN"
 
 # column item
@@ -142,8 +154,8 @@
   file: "box_12.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Wi-fi em todos os apartamentos"
-  desc-EN: "EN"
+  desc-PT: "Wi-fi em todos os apartamentos &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
+  desc-EN: "Wi-fi in all apartments"
 
 # column item
 - category: "galeria-tp"
@@ -154,8 +166,8 @@
   file: "box_13.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Piscina e parque aquático"
-  desc-EN: "EN"
+  desc-PT: "Piscina e Jacuzzi"
+  desc-EN: "Pool and Jacuzzi"
 
 # column item
 - category: "galeria-tp"
@@ -166,8 +178,8 @@
   file: "box_14.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Quadras poliesportivas"
-  desc-EN: "EN"
+  desc-PT: "Lounge"
+  desc-EN: "Lounge"
 
 # column item
 - category: "galeria-tp"
@@ -179,7 +191,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Academia e Fitness Class"
-  desc-EN: "EN"
+  desc-EN: "Gym and Fitness Class"
 
 # column item
 - category: "galeria-tp"
@@ -191,7 +203,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Tendas de Massagem"
-  desc-EN: "EN"
+  desc-EN: "Massage Tents"
 
 # column item
 - category: "galeria-tp"
@@ -203,7 +215,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Aula de culinária"
-  desc-EN: "EN"
+  desc-EN: "Cooking classes"
 
 # column item
 - category: "galeria-tp"
@@ -215,7 +227,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Degustação de vinhos e cervejas artesanais"
-  desc-EN: "EN"
+  desc-EN: "Wine and craft beer tasting"
 
 # column item
 - category: "galeria-tp"
@@ -227,7 +239,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Aluguel de equipamentos para esportes náuticos"
-  desc-EN: "EN"
+  desc-EN: "Water sports equipment rental"
 
   # column item
 - category: "galeria-tp"
@@ -239,7 +251,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Aluguel de carros e bicicletas"
-  desc-EN: "EN"
+  desc-EN: "Car and bicycle rental"
 
 # column item
 - category: "galeria-tp"
@@ -251,12 +263,32 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Passeios de Buggy"
-  desc-EN: "EN"
+  desc-EN: "Buggy rides"
 
 
 
 # ------- SLIDER FRASES -------- #
 
+- category: "slider-frases"
+  file: "carrossel_01.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+  title-PT: "O Time Property é um conceito que valoriza o seu bem mais precioso: o seu tempo livre."
+  title-EN: "EN"
+
+- category: "slider-frases"
+  file: "carrossel_02.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+  title-PT: "Com ele, você se torna membro de um Club de luxo,em um lugar paradisíaco, para aproveitar com a sua família e amigos."
+  title-EN: "EN"
+
+- category: "slider-frases"
+  file: "carrossel_03.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+  title-PT: "e tudo isso com uma<br> mensalidade a partir de R$ 248."
+  title-EN: "EN"
 
 
 # ------- LOCAL -------- #
@@ -271,13 +303,17 @@
   max-wid: 1920
   break-point: "1040, 1024"
   title-PT: "FORTIM, UM PARAÍSO POUCO CONHECIDO."
-  desc-PT: ". O Time Property Club localiza-se na Praia Pontal de Maceió, em Fortim (CE)<br>
-            . Fortim é uma charmosa vila de pescadores, no interior do Ceará<br>
-            . A 115 Km de Fortaleza (1h de carro pela rodovia CE-040)<br>
-            . A 15 Km do Aeroporto Internacional de Aracati"
-  title-EN: "EN"
-  desc-EN: "EN"
-
+  desc-PT: ". O Time Property Club localiza-se na Praia Pontal de Maceió, em Fortim (CE).<br>
+            . Fortim é uma charmosa vila de pescadores, no interior do Ceará.<br>
+            . A 115 Km de Fortaleza (1h de carro pela rodovia CE-040).<br>
+            . A 15 Km do Aeroporto Internacional de Aracati.
+            . A aproximadamente 1h de carro do Beach Park, um dos melhores parques aquáticos da América Latina."
+  title-EN: "FORTIM, A LITTLE-KNOWN PARADISE"
+  desc-EN: ". The Time Property Club is located at Pontal de Maceió beach, in Fortim (CE).<br>
+            . It’s a charming fishermen village in the interior of Ceará.<br>
+            . 115 km from Fortaleza (1 hour drive on highway CE-040).<br>
+            . 15 km from Aracati international Airport. 20 km from the beaches in Canoa Quebrada.<br>
+            . Approximately 1 hour drive from Beach Park, one of the best water parks in Latin America."
 # local 02
 - category: "local"
   id: 02
@@ -288,12 +324,15 @@
   max-wid: 1920
   break-point: "1040, 1024"
   title-PT: "E COM UMA NATUREZA PERFEITA."
-  desc-PT: ". Sol durante o ano inteiro<br>
-            . Praia com águas cristalinas<br>
-            . Cercado pelo Rio Jaguaribe<br>
-            . Ecossistema perfeito para a prática de esportes náuticos"
-  title-EN: "EN"
-  desc-EN: "EN"
+  desc-PT: ". Verão o ano inteiro<br>
+            . Praias com águas quentes e cristalinas.<br>
+            . Cercado pelo Rio Jaguaribe, com mais de 35 Km navegáveis.<br>
+            . Ecossistema perfeito para descansar, passear ou praticar esportes náuticos."
+  title-EN: "AND WITH A PERFECT NATURE"
+  desc-EN: ". It’s summmer all year round.<br>
+            . Beaches with warm, crystal clear waters<br>
+            . Surrounded by the Jaguaribe River, with more than 35 navigable kilometers.<br>
+            . A perfect ecosystem for resting, strolling or playing water sports."
 
 
 
@@ -311,7 +350,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
-  desc-EN: "EN"
+  desc-EN: " Legal security, with public deed and property registration."
 
 # column item
 - category: "beneficios"
@@ -322,7 +361,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Propriedade de 10 anos, sem adendos no preço por conservação ou beneficiação."
-  desc-EN: "EN"
+  desc-EN: "Property for 10 years, no extra costs or charges"
 
   # column item
 - category: "beneficios"
@@ -333,7 +372,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Escolha as semana de sua preferência."
-  desc-EN: "EN"
+  desc-EN: "Choose the weeks you prefer"
 
   # column item
 - category: "beneficios"
@@ -343,8 +382,8 @@
   file: "beneficios-04.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Se em um ano você não puder utilizar nas datas, a prestação anual será devolvida."
-  desc-EN: "EN"
+  desc-PT: "Não se preocupe, caso não possa utilizar suas datas, haverá uma compensação."
+  desc-EN: "Don’t worry, in case you cannot use your dates, ther Will be a compensation."
 
   # column item
 - category: "beneficios"
@@ -355,7 +394,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Possibilidade de trocar, vender ou alugar a propriedade durante as datas escolhidas."
-  desc-EN: "EN"
+  desc-EN: "Possibility of exchanging, selling or renting the property."
 
   # column item
 - category: "beneficios"
@@ -366,7 +405,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Parcelamento em até 12 anos, com financiamento subsidiado pela incorporadora."
-  desc-EN: "EN"
+  desc-EN: "Installment in up to 12 years, with financing subsidized by the developer."
 
   # column item
 - category: "beneficios"
@@ -377,7 +416,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Baixos valores de condomínio e administração."
-  desc-EN: "EN"
+  desc-EN: "Low condominium and administration fees."
 
   # column item
 - category: "beneficios"
@@ -388,7 +427,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Condomínio fechado, com segurança 24h. "
-  desc-EN: "EN"
+  desc-EN: "Gated community with 24h security"
 
 # ------- SEJA MEMBRO -------- #
 
@@ -401,7 +440,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Preencha o formulário aqui no site."
-  desc-EN: "EN"
+  desc-EN: "Fill out the form here on the website."
 
 # column item
 - category: "seja-membro"
@@ -412,7 +451,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Um de nossos promotores entrará em contato e apresentará as condições especiais."
-  desc-EN: "EN"
+  desc-EN: "One of our sales promoters will contact you and present the special conditions."
 
 # column item
 - category: "seja-membro"
@@ -437,7 +476,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Descontos e benefícios exclusivos como membro do Club Internacional LYONESS."
-  desc-EN: "EN"
+  desc-EN: "Exclusive discounts and benefits as a member of the LYONESS International Club."
 
 # column item
 - category: "vantagens"
@@ -448,7 +487,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Descontos e benefícios exclusivos em uma rede hoteleira internacional."
-  desc-EN: "EN"
+  desc-EN: "Exclusive discounts and benefits in an international hotel chain."
 
 # column item
 - category: "vantagens"
@@ -459,7 +498,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Acesso ao Reserva Jaguaribe Club Náutico com benefícios e descontos exclusivos nos equipamentos náuticos."
-  desc-EN: "EN"
+  desc-EN: "Access to the Reserva Jaguaribe Clube Náutico with exclusive benefits and discounts on nautical equipment."
 
 # column item
 - category: "vantagens"
@@ -470,4 +509,4 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Descontos e preços especiais em um pacote de seguros."
-  desc-EN: "EN"
+  desc-EN: "Discounts and special prices on an insurance and benefits package."
