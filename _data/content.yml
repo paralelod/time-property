@@ -143,18 +143,6 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Wi-fi em todos os apartamentos &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
-  desc-EN: "EN"
-
-# column item
-- category: "galeria-tp"
-  subcategory: "serviços"
-  col-lg : 3
-  col-md: 4
-  col-sm: 2
-  file: "box_12.jpg"
-  max-wid: 1920
-  break-point: "1040, 1024"
-  desc-PT: "Wi-fi em todos os apartamentos &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
   desc-EN: "Wi-fi in all apartments"
 
 # column item
@@ -273,14 +261,14 @@
   file: "carrossel_01.jpg"
   max-wid: 1920
   break-point: "1040, 1024,1482,1920"
-  title-PT: "O Time Property é um conceito que valoriza o seu bem mais precioso: o seu tempo livre."
+  title-PT: "O Time Property é um conceito<br> que valoriza o seu bem mais precioso:<br> o seu tempo livre."
   title-EN: "EN"
 
 - category: "slider-frases"
   file: "carrossel_02.jpg"
   max-wid: 1920
   break-point: "1040, 1024,1482,1920"
-  title-PT: "Com ele, você se torna membro de um Club de luxo,em um lugar paradisíaco, para aproveitar com a sua família e amigos."
+  title-PT: "Com ele, você se torna membro<br> de um Club de luxo,<br>em um lugar paradisíaco,<br> para aproveitar<br> com a sua família e amigos."
   title-EN: "EN"
 
 - category: "slider-frases"

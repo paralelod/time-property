@@ -6,7 +6,7 @@
 			{% for item in site.data.content %}
 				{% if item.category == "slider-frases" %}
 					<div style="color: #fff; background: url({{ site.url }}//assets/img/1920/{{ item.file }}); background-size:cover;" class="full-height">
-						<h2 class="center-center" style="color:white;">{% include lang/content-title.html %}</h2>
+						<h2 class="center-center" style="color:white; text-transform:uppercase;">{% include lang/content-title.html %}</h2>
 					</div>
 				{% endif %}
 			{% endfor %}

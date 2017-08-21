@@ -12,9 +12,13 @@ h1 {
   line-height: 1;
 }
 
-h2, h3, h4, h5, h6{ font-family: $title-font; line-height: 1.25; }
+h2, h3, h4, h6{ font-family: $title-font; line-height: 1.25; }
 
 h6 { font-size: $h6-size-lg;}
+
+h5{
+    font-family: Georgia
+}
 
 
 
