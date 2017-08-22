@@ -1,6 +1,6 @@
 <section class="bg-creme" style="padding: 3rem 0;">
   <div class="row">
-    <form action="https://docs.google.com/forms/d/e/1FAIpQLSezui3Nywp3VpzVT1uLbAAgW3t-ksF4bRFGOYIv53K91HhNeA/formResponse" autocomplete="on" id="ss-form" method="post" name="ss-form" onsubmit="" target="secret-frame" data-abide>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSezui3Nywp3VpzVT1uLbAAgW3t-ksF4bRFGOYIv53K91HhNeA/formResponse" autocomplete="on" id="ss-form-2" method="post" name="ss-form" onsubmit="" target="secret-frame-2" data-abide>
       <div class="ss-question-list" role="list" style="margin-left: 2em; padding-left: 0">
         <div class="ss-form-question errorbox-good small-12 medium-6 large-3 columns" role="listitem">
           <div class="ss-item ss-item-required ss-text" dir="auto">
@@ -66,7 +66,7 @@
           <label for="emailReceipt" style="display:inline;"></label>
         </div>
         <div class="ss-item ss-navigate small-12 medium-6 large-3 columns">
-            <input class="button expand round jfk-button jfk-button-action" id="ss-submit" name="submit" type="submit" value="Enviar" style="background:none;color:black;margin-top:1rem;">
+            <input class="button expand round jfk-button jfk-button-action" id="ss-submit-2" name="submit" type="submit" value="Enviar" style="background:none;color:black;margin-top:1rem;">
           <!-- <table id="navigation-table">
             <tbody>
               <tr>
@@ -83,32 +83,30 @@
       </div>
     </form>
   </div>
-  <div id="form-success-msg" class="row hide" style="margin-top:1.5rem;">
+  <div id="form-success-msg-2" class="row hide" style="margin-top:1.5rem;">
       <div data-alert class=" large-12 columns alert-box success round text-center">
-          <h4 style="color:white;">Enviado com sucesso <a id="close-msg"  href="javascript:void(0)" onclick="return false;">&times;</a></h4>
-          
+          <h4 style="color:white;">Enviado com sucesso <a id="close-msg-2"  href="javascript:void(0)" onclick="return false;">&times;</a></h4>
         </div>
   </div>
 </section>
 
-<iframe name="secret-frame" width="0" height="0" border="0" style="display: none;"></iframe>
+<iframe name="secret-frame-2" width="0" height="0" border="0" style="display: none;"></iframe>
 
 <!-- Script to redirect to a custom page -->
 <script>
   // replace "ss-submit" with the ID of your submit button
-  document.getElementById("ss-submit").addEventListener("click", function(){
+  document.getElementById("ss-submit-2").addEventListener("click", function(){
     // adds a delay because the results page loads before the form has a chance to submit
     setTimeout(function() {  
     // replace "ss-form" with the ID of your form
-    document.getElementById("ss-form").reset();
-    $( "#form-success-msg" ).fadeIn(500).removeClass( "hide" );
+      document.getElementById("ss-form-2").reset();
+      $( "#form-success-msg-2" ).fadeIn(500).removeClass( "hide" );
     }, 1000);
-    
     // window.setTimeout(function(){
     //   $( "#form-success-msg" ).addClass('hide');
     // }, 5000);
   });
-  document.getElementById("close-msg").addEventListener("click", function(){
-    $( "#form-success-msg" ).fadeOut(500).addClass( "hide" );
+  document.getElementById("close-msg-2").addEventListener("click", function(){
+    $( "#form-success-msg-2" ).fadeOut(500).addClass( "hide" );
   });
 </script>
