@@ -118,6 +118,18 @@ input[type="submit"]{
 }
 
 
+.btn-galeria{
+  margin: 0 2rem;
+  padding: 0.75rem;
+  border: 1px solid white;
+  border-radius: 20rem;
+  color: white;
+  outline: none;
+  &:hover, &:focus{
+    color: black;
+  }
+}
+
 // play .button
 // .play-button {
 //   position: absolute;

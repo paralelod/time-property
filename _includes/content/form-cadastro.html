@@ -1,7 +1,12 @@
 <section class="bg-creme" style="padding: 3rem 0;">
   <div class="row">
     <form action="https://docs.google.com/forms/d/e/1FAIpQLSezui3Nywp3VpzVT1uLbAAgW3t-ksF4bRFGOYIv53K91HhNeA/formResponse" autocomplete="on" id="ss-form" method="post" name="ss-form" onsubmit="" target="secret-frame" data-abide>
-      <div class="ss-question-list" role="list" style="margin-left: 2em; padding-left: 0">
+      <div class="small-12 medium-12 large-12 columns" style="margin-bottom:2rem;">
+          <span>SEJA MEMBRO E GANHE BENEFÍCIOS EXCLUSIVOS</span>
+          <br>
+          <span>Basta preencher o cadastro e nossa equipe entra em contato.</span>
+        </div>
+      <div class="ss-question-list" role="list">
         <div class="ss-form-question errorbox-good small-12 medium-6 large-3 columns" role="listitem">
           <div class="ss-item ss-item-required ss-text" dir="auto">
             <div class="ss-form-entry">
@@ -66,8 +71,13 @@
           <label for="emailReceipt" style="display:inline;"></label>
         </div>
         <div class="ss-item ss-navigate small-12 medium-6 large-3 columns">
-            <input class="button expand round jfk-button jfk-button-action" id="ss-submit" name="submit" type="submit" value="Enviar" style="background:none;color:black;margin-top:1rem;">
-          <!-- <table id="navigation-table">
+            <!-- <span id="disable-button">
+              <input class="button expand round disable" id="ss-disable" name="submit" type="submit" value="Enviar" style="background:none;color:black;margin-top:1rem;opacity:0.1">
+            </span> -->
+            <span id="active-button" class="">
+              <input class="button expand round  jfk-button jfk-button-action" id="ss-submit" name="submit" type="submit" value="Enviar" style="background:none;color:black;margin-top:1rem;">
+            </span>
+            <!-- <table id="navigation-table">
             <tbody>
               <tr>
                 <td class="ss-form-entry goog-inline-block" dir="ltr" id="navigation-buttons">
@@ -92,23 +102,3 @@
 </section>
 
 <iframe name="secret-frame" width="0" height="0" border="0" style="display: none;"></iframe>
-
-<!-- Script to redirect to a custom page -->
-<script>
-  // replace "ss-submit" with the ID of your submit button
-  document.getElementById("ss-submit").addEventListener("click", function(){
-    // adds a delay because the results page loads before the form has a chance to submit
-    setTimeout(function() {  
-    // replace "ss-form" with the ID of your form
-    document.getElementById("ss-form").reset();
-    $( "#form-success-msg" ).fadeIn(500).removeClass( "hide" );
-    }, 1000);
-    
-    // window.setTimeout(function(){
-    //   $( "#form-success-msg" ).addClass('hide');
-    // }, 5000);
-  });
-  document.getElementById("close-msg").addEventListener("click", function(){
-    $( "#form-success-msg" ).fadeOut(500).addClass( "hide" );
-  });
-</script>

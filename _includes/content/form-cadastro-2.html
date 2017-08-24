@@ -1,7 +1,12 @@
 <section class="bg-creme" style="padding: 3rem 0;">
   <div class="row">
     <form action="https://docs.google.com/forms/d/e/1FAIpQLSezui3Nywp3VpzVT1uLbAAgW3t-ksF4bRFGOYIv53K91HhNeA/formResponse" autocomplete="on" id="ss-form-2" method="post" name="ss-form" onsubmit="" target="secret-frame-2" data-abide>
-      <div class="ss-question-list" role="list" style="margin-left: 2em; padding-left: 0">
+      <div class="small-12 medium-12 large-12 columns" style="margin-bottom:2rem;">
+          <span>SEJA MEMBRO E GANHE BENEFÍCIOS EXCLUSIVOS</span>
+          <br>
+          <span>Basta preencher o cadastro e nossa equipe entra em contato.</span>
+        </div>
+      <div class="ss-question-list" role="list">
         <div class="ss-form-question errorbox-good small-12 medium-6 large-3 columns" role="listitem">
           <div class="ss-item ss-item-required ss-text" dir="auto">
             <div class="ss-form-entry">
@@ -92,21 +97,3 @@
 
 <iframe name="secret-frame-2" width="0" height="0" border="0" style="display: none;"></iframe>
 
-<!-- Script to redirect to a custom page -->
-<script>
-  // replace "ss-submit" with the ID of your submit button
-  document.getElementById("ss-submit-2").addEventListener("click", function(){
-    // adds a delay because the results page loads before the form has a chance to submit
-    setTimeout(function() {  
-    // replace "ss-form" with the ID of your form
-      document.getElementById("ss-form-2").reset();
-      $( "#form-success-msg-2" ).fadeIn(500).removeClass( "hide" );
-    }, 1000);
-    // window.setTimeout(function(){
-    //   $( "#form-success-msg" ).addClass('hide');
-    // }, 5000);
-  });
-  document.getElementById("close-msg-2").addEventListener("click", function(){
-    $( "#form-success-msg-2" ).fadeOut(500).addClass( "hide" );
-  });
-</script>

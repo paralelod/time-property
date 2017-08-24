@@ -1,5 +1,6 @@
 //foundation init
   $(document).foundation();
+  // $(document).foundation('abide','events');
 
 //   document.addEventListener("DOMContentLoaded", function() {
 //     var elements = document.getElementsByTagName("INPUT");
