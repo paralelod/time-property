@@ -30,8 +30,8 @@ $back-top-btn: $theme-light-color;
 
 // PRELOADER 
 
-$preloader-overlay: $theme-light-color;
-$preloader-spinner: $theme-dark-color;
+$preloader-overlay: #63b5c0;
+$preloader-spinner: white;
 
 
 
@@ -55,7 +55,7 @@ $tab-bar-bg-right: $theme-dark-color;
 // BUTONS
 
 
-$btn-bg: rgba(0, 0, 0, 0.65);
+$btn-bg: rgba(0, 0, 0, 0.45);
 $btn-txt: $theme-light-color;
 
 
