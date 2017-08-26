@@ -71,7 +71,10 @@ function loadIframe(iframeName, url) {
 $(window).scroll(function() {
   console.log($(window).scrollTop());
   if ($(window).scrollTop() > 500) {
-    $( "#video-trigger" ).removeClass("removed");
+    if ($(window).width() > 1024) {
+      $( "#video-trigger" ).removeClass("removed");
+    }
+    
     loadIframe('video', 'https://www.youtube.com/embed/qlxrei-wmyk?rel=0&amp;controls=0&amp;showinfo=0&enablejsapi=1')
   }
 });
