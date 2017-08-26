@@ -19,8 +19,8 @@
 	// centerMode: true,
 	// dots: true,
  	// asNavFor: '.slider-plantas-thumbs',
-	// prevArrow: '<div class="slick-prev"><i class="i-chev-left-thin"></i><span class="sr-text">Previous</span></div>',
-  	// nextArrow: '<div class="slick-next"><i class="i-chev-right-thin"></i><span class="sr-text">Next</span></div>'
+	prevArrow: '<img src="./assets/img/button-l.png" >',
+  	nextArrow: '<div class="slick-next"><i class="i-chev-right-thin"></i><span class="sr-text">Next</span></div>',
 
  });
 

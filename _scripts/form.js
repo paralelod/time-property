@@ -1,22 +1,31 @@
 
 
-    // // replace "ss-submit" with the ID of your submit button
-    // document.getElementById("ss-submit").addEventListener("click", function(){
-    //     // adds a delay because the results page loads before the form has a chance to submit
-    //     setTimeout(function() {  
-    //     // replace "ss-form" with the ID of your form
-    //     document.getElementById("ss-form").reset();
-    //     $( "#form-success-msg" ).fadeIn(500).removeClass( "hide" );
-    //     }, 1000);
+    // replace "ss-submit" with the ID of your submit button
+    document.getElementById("ss-submit").addEventListener("click", function(){
+        // adds a delay because the results page loads before the form has a chance to submit
+        setTimeout(function() {  
+        // replace "ss-form" with the ID of your form
+        document.getElementById("ss-form").reset();
+        console.log('passaaaaa')
+        }, 1000);
+
+        $( "#form-success-msg" ).fadeIn(500).removeClass( "hide" );
         
-    //     // window.setTimeout(function(){
-    //     //   $( "#form-success-msg" ).addClass('hide');
-    //     // }, 5000);
-    //   });
-    //   document.getElementById("close-msg").addEventListener("click", function(){
-    //     $( "#form-success-msg" ).fadeOut(500).addClass( "hide" );
-    //   });
+        window.setTimeout(function(){
+          $( "#form-success-msg" ).addClass('hide');
+        }, 5000);
+      });
+      document.getElementById("close-msg").addEventListener("click", function(){
+        $( "#form-success-msg" ).fadeOut(500).addClass( "hide" );
+      });
     
+
+
+
+
+
+
+
 
 
    // replace "ss-submit" with the ID of your submit button
@@ -34,6 +43,13 @@
   document.getElementById("close-msg-2").addEventListener("click", function(){
     $( "#form-success-msg-2" ).fadeOut(500).addClass( "hide" );
   });
+
+
+
+
+
+
+
 
 //   $(document).ready(function(){
 //     $('#ss-submit').attr('disabled',true);

@@ -12,11 +12,10 @@ exclude:
   - package.json
 author: Diogo Russo
 job: experience designer
-title: Your awesome title
-description: >
-  Write an awesome description for your new site here. You can edit this line in
-  _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+title: Time Property
+description: >-
+  I'm a DESIGNER and STORYTELLER I help businesses, individuals and communities
+  craft meaningful EXPERIENCES and PRODUCTS
 logo: logo-v-white.svg
 favico: /lib/img/_favicon.ico
 avatar: +avatar.png
@@ -28,6 +27,16 @@ city: Berkeley
 collections:
   docs:
     output: true
+description-PT: >-
+  O Time Property é um conceito<br> que valoriza o seu bem mais precioso: o seu
+  tempo livre.Com ele, você se torna membro<br> de um Club de luxo,<br>em um
+  lugar paradisíaco,<br> para aproveitar<br> com a sua família e amigos.Tudo
+  isso com uma<br> mensalidade a partir de R$ 248.
+description-EN: >-
+  Time Property is a concept that values your most precious asset: <br> your
+  free time. With it, you become a member of a Luxury Club, in a heavenly place,
+  to enjoy <br> with your family and friends.All with a monthly fee starting at
+  R$ 248.
 twitter_username: jekyllrb
 github_username: jekyll
 defaults:

@@ -1,6 +1,8 @@
 
 # ------- GALERIA -------- #
 
+
+
 # column item
 - category: "galeria-tp"
   subcategory: "apartamentos"
@@ -8,6 +10,7 @@
   col-md: 4
   col-sm: 2
   file: "box_01.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Apartamentos de 80 m2"
@@ -20,6 +23,7 @@
   col-md: 4
   col-sm: 2
   file: "box_02.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Apartamentos de 140 m2"
@@ -32,6 +36,7 @@
   col-md: 4
   col-sm: 2
   file: "box_03.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Apartamentos luxuosos, padrão A "
@@ -44,6 +49,7 @@
   col-md: 4
   col-sm: 2
   file: "box_04.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Sofisticação e conforto garantidos"
@@ -56,6 +62,7 @@
   col-md: 4
   col-sm: 2
   file: "box_05.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Apartamentos mobiliados"
@@ -68,6 +75,7 @@
   col-md: 4
   col-sm: 2
   file: "box_06.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Vistas privilegiadas"
@@ -80,6 +88,7 @@
   col-md: 4
   col-sm: 2
   file: "box_07.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Café da manhã incluído"
@@ -92,6 +101,7 @@
   col-md: 4
   col-sm: 2
   file: "box_08.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Bar e restaurante com serviço na praia"
@@ -104,6 +114,7 @@
   col-md: 4
   col-sm: 2
   file: "box_09.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Camareira e serviço de limpeza nos apartamentos"
@@ -116,6 +127,7 @@
   col-md: 4
   col-sm: 2
   file: "box_10.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Transfer do aeroporto de Fortaleza e para outros destinos turísticos"
@@ -128,6 +140,7 @@
   col-md: 4
   col-sm: 2
   file: "box_11.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Segurança 24h &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
@@ -140,6 +153,7 @@
   col-md: 4
   col-sm: 2
   file: "box_12.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Wi-fi em todos os apartamentos &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
@@ -152,6 +166,7 @@
   col-md: 4
   col-sm: 2
   file: "box_13.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Piscina e Jacuzzi"
@@ -164,6 +179,7 @@
   col-md: 4
   col-sm: 2
   file: "box_14.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Lounge"
@@ -176,6 +192,7 @@
   col-md: 4
   col-sm: 2
   file: "box_15.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Academia e Fitness Class"
@@ -188,6 +205,7 @@
   col-md: 4
   col-sm: 2
   file: "box_16.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Tendas de Massagem"
@@ -200,6 +218,7 @@
   col-md: 4
   col-sm: 2
   file: "box_17.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Aula de culinária"
@@ -212,6 +231,7 @@
   col-md: 4
   col-sm: 2
   file: "box_18.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Degustação de vinhos e cervejas artesanais"
@@ -224,6 +244,7 @@
   col-md: 4
   col-sm: 2
   file: "box_19.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Aluguel de equipamentos para esportes náuticos"
@@ -236,6 +257,7 @@
   col-md: 4
   col-sm: 2
   file: "box_20.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Aluguel de carros e bicicletas"
@@ -248,6 +270,7 @@
   col-md: 4
   col-sm: 2
   file: "box_21.jpg"
+  ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Passeios de Buggy"
@@ -262,7 +285,7 @@
   max-wid: 1920
   break-point: "1040, 1024,1482,1920"
   title-PT: "O Time Property é um conceito<br> que valoriza o seu bem mais precioso:<br> o seu tempo livre."
-  title-EN: "Time Property is a concept that values your most precious asset: <br> your free time."
+  title-EN: "Time Property is a concept<br> that values your most precious asset: <br> your free time."
 
 - category: "slider-frases"
   file: "carrossel_02.jpg"
@@ -276,7 +299,7 @@
   max-wid: 1920
   break-point: "1040, 1024,1482,1920"
   title-PT: "Tudo isso com uma<br> mensalidade a partir de R$ 248."
-  title-EN: "All with a monthly fee starting at R $ 248."
+  title-EN: "All with a monthly fee starting at R$ 248."
 
 
 # ------- LOCAL -------- #
@@ -288,6 +311,7 @@
   col-md: 4
   col-sm: 2
   file: "quadrado_01.jpg"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   title-PT: "FORTIM, UM PARAÍSO POUCO CONHECIDO."
@@ -309,6 +333,7 @@
   col-md: 4
   col-sm: 2
   file: "quadrado_02.jpg"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   title-PT: "E COM UMA NATUREZA PERFEITA."
@@ -323,6 +348,84 @@
             . A perfect ecosystem for resting, strolling or playing water sports."
 
 
+# ------- PLANTAS -------- #
+
+- category: "plantas"
+  file: "3d_00.jpg"
+  ratio: "16-9"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+
+- category: "plantas"
+  file: "3d_01.jpg"
+  ratio: "16-9"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+
+- category: "plantas"
+  file: "3d_02.jpg"
+  ratio: "16-9"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+
+- category: "plantas"
+  file: "3d_03.jpg"
+  ratio: "16-9"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+
+- category: "plantas"
+  file: "3d_04.jpg"
+  ratio: "16-9"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+
+- category: "plantas"
+  file: "3d_05.jpg"
+  ratio: "16-9"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+
+- category: "plantas"
+  file: "3d_06.jpg"
+  ratio: "16-9"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+
+- category: "plantas"
+  file: "3d_07.jpg"
+  ratio: "16-9"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+
+- category: "plantas"
+  file: "3d_08.jpg"
+  ratio: "16-9"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+
+- category: "plantas"
+  file: "3d_09.jpg"
+  ratio: "16-9"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+
+- category: "plantas"
+  file: "3d_10.jpg"
+  ratio: "16-9"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+
+- category: "plantas"
+  file: "3d_11.jpg"
+  ratio: "16-9"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
+
+- category: "plantas"
+  file: "3d_12.jpg"
+  max-wid: 1920
+  break-point: "1040, 1024,1482,1920"
 
 
 
@@ -335,6 +438,7 @@
   col-md: 4
   col-sm: 2
   file: "beneficios-01.jpg"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Segurança jurídica, com escritura pública e registro do imóvel."
@@ -346,6 +450,7 @@
   col-md: 4
   col-sm: 2
   file: "beneficios-02.jpg"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Propriedade de 10 anos, sem adendos no preço por conservação ou beneficiação."
@@ -357,6 +462,7 @@
   col-md: 4
   col-sm: 2
   file: "beneficios-03.jpg"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Escolha as semana de sua preferência."
@@ -368,6 +474,7 @@
   col-md: 4
   col-sm: 2
   file: "beneficios-04.jpg"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Não se preocupe, caso não possa utilizar suas datas, haverá uma compensação."
@@ -379,6 +486,7 @@
   col-md: 4
   col-sm: 2
   file: "beneficios-05.jpg"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Possibilidade de trocar, vender ou alugar a propriedade durante as datas escolhidas."
@@ -390,6 +498,7 @@
   col-md: 4
   col-sm: 2
   file: "beneficios-06.jpg"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Parcelamento em até 12 anos, com financiamento subsidiado pela incorporadora."
@@ -401,6 +510,7 @@
   col-md: 4
   col-sm: 2
   file: "beneficios-07.jpg"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Baixos valores de condomínio e administração."
@@ -412,6 +522,7 @@
   col-md: 4
   col-sm: 2
   file: "beneficios-08.jpg"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Condomínio fechado, com segurança 24h."
@@ -425,6 +536,7 @@
   col-md: 4
   col-sm: 2
   file: "passo_01.png"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Preencha o formulário aqui no site."
@@ -436,6 +548,7 @@
   col-md: 4
   col-sm: 2
   file: "passo_02.png"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Um de nossos promotores entrará em contato e apresentará as condições especiais."
@@ -447,6 +560,7 @@
   col-md: 4
   col-sm: 2
   file: "passo_03.png"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Aproveite o paraíso e desfrute de benefícios exclusivos."
@@ -461,6 +575,7 @@
   col-md: 4
   col-sm: 2
   file: "vantagens-01.jpg"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Descontos e benefícios exclusivos como membro do Club Internacional LYONESS."
@@ -472,6 +587,7 @@
   col-md: 4
   col-sm: 2
   file: "vantagens-02.jpg"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Descontos e benefícios exclusivos em uma rede hoteleira internacional."
@@ -483,6 +599,7 @@
   col-md: 4
   col-sm: 2
   file: "vantagens-03.jpg"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Acesso ao Reserva Jaguaribe Club Náutico com benefícios e descontos exclusivos nos equipamentos náuticos."
@@ -494,6 +611,7 @@
   col-md: 4
   col-sm: 2
   file: "vantagens-04.jpg"
+  ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Descontos e preços especiais em um pacote de seguros."

@@ -4,8 +4,13 @@
         <img 
             data-src="{{ site.url }}/assets/img/480/{{ include.file }}" 
             alt="{{ include.description}}" 
-            class="{{ include.class }}" 
-            src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif"/ >
+            class="{{ include.class }}"
+            {% if item.ratio == "16-9" %} 
+                src="{{ site.url }}/assets/img/16-9_loading-480.gif">
+            {% endif %}
+            {% if item.ratio == "1-1" %} 
+                src="{{ site.url }}/assets/img/1-1_loading-480.gif">
+            {% endif %}
         <p style="background:#fff; padding:1rem;">{{ include.description }}</p>
     </div>
 </li>

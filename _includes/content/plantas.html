@@ -12,54 +12,30 @@
 		<!-- SLIDES -->
 	    <div class="large-12 medium-12 columns text-center" >
 			<div class="row relative slider-plantas text-center">
-				<div style="color: #fff; background: #85c7a9;" >
-					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_00.jpg" alt="time property" %}
+				
+					{% for item in site.data.content %}
+					{% capture file-item %}{{ item.file }}{% endcapture %}
+					{% if item.category == "plantas" %}
+					<div>
+					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file=file-item alt="time property" %}
 				</div>
-				<div style="color: #fff; background: #85c7a9;" >
-					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_01.jpg" alt="time property" %}
-				</div>
-				<div style="color: #fff; background: #85c7a9;" >
-					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_02.jpg" alt="time property" %}
-				</div>
-				<div style="color: #fff; background: #85c7a9;" >
-					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_03.jpg" alt="time property" %}
-				</div>
-				<div style="color: #fff; background: #85b7c7;" >
-					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_04.jpg" alt="time property" %}
-				</div>
-				<div  style="color: #fff; background: #8596c7;" >
-					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_05.jpg" alt="time property" %}
-				</div>
-				<div  style="color: #fff; background: #8d85c7;" >
-					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_06.jpg" alt="time property" %}
-				</div>
-				<div  style="color: #fff; background: #bd85c7;" >
-					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_07.jpg" alt="time property" %}
-				</div>
-                <div  style="color: #fff; background: #bd85c7;" >
-					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_08.jpg" alt="time property" %}
-				</div>
-                <div  style="color: #fff; background: #bd85c7;" >
-					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_10.jpg" alt="time property" %}
-				</div>
-                <div  style="color: #fff; background: #bd85c7;" >
-					{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_11.jpg" alt="time property" %}
-				</div>
+					{% endif %}
+					{% endfor %}
 			</div>
 		</div> 
 	</div>
 	 <!-- THUMBNAILS -->
 		<!-- <div class="slider-plantas-thumbs">
-			<div style="color: #fff; background: #85c7a9;" >
+			<div  >
 				{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_00.jpg" alt="time property" %}
 			</div>
-			<div style="color: #fff; background: #85c7a9;" >
+			<div  >
 				{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_01.jpg" alt="time property" %}
 			</div>
-			<div style="color: #fff; background: #85c7a9;" >
+			<div  >
 				{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_02.jpg" alt="time property" %}
 			</div>
-			<div style="color: #fff; background: #85c7a9;" >
+			<div  >
 				{% include utils/img-resp.html max-wid="1042" b-points="1042|791|480" file="3d_03.jpg" alt="time property" %}
 			</div>
 			<div style="color: #fff; background: #85b7c7;" >

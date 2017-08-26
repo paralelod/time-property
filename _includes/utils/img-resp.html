@@ -1,10 +1,12 @@
-
 {% assign breakpoints =  include.b-points | split: "|" %}
 <picture>
-    <img sizes="(max-width: {{ include.max-wid }}px)100vw, {{ include.max-wid }}px"
-        srcset="{% for break in breakpoints %}
-               {{ site.url }}/assets/img/{{ break }}/{{ include.file }} {{ break }}w,
-            {% endfor %}"
+    <img 
+        {% if item.ratio == "16-9" %} 
+            src="{{ site.url }}/assets/img/16-9_loading.gif"
+        {% endif %}
+        {% if item.ratio == "1-1" %} 
+            src="{{ site.url }}/assets/img/1-1_loading.gif"
+        {% endif %}
         data-src="{{ site.url }}/assets/img/{{ include.max-wid }}/{{ include.file }}"
         alt="{{ include.alt }} {{ breakpoints }}"
         class="full-width">

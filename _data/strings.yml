@@ -41,6 +41,11 @@
   title-EN: "ADVANTAGES"
   url: "#vant"
 
+# Masthead
+- section: masthead
+  id: 00
+  title-PT: "ASSISTIR VÍDEO"
+  title-EN: "WATCH THE VIDEO"
 
 # Galeria Tabs
 
@@ -84,7 +89,7 @@
 #Beneficios
 - section: seja-membro
   title-PT: "É MUITO FÁCIL SE TORNAR <br> UM MEMBRO DO TIME PROPERTY CLUB"
-  title-EN: "It’s very easy to become<br> a member of the Time Property Club"
+  title-EN: "IT’S VERY EASY TO BECOME<BR> A MEMBER OF THE TIME PROPERTY CLUB"
   id: 00
 
 #Vantagens
@@ -95,5 +100,106 @@
 
 - section: vantagens
   title-PT: "Seja membro exclusivo do Time Property Club e ganhe ainda mais benefícios." 
-  title-EN: Be an exclusive member of the Time Property Club and get even more benefits."
+  title-EN: "Be an exclusive member of the Time Property Club and get even more benefits."
   id: 01
+
+- section: vantagens
+  title-PT: "* todas as imagens do site são meramente ilustrativas"
+  title-EN: "* all images on the site are merely illustrative"
+  id: 02
+
+
+#FORM
+
+- section: "form"
+  title-PT: "SEJA MEMBRO E GANHE BENEFÍCIOS EXCLUSIVOS"
+  title-EN: "BECOME A MEMBER AND MAKE EXCLUSIVE BENEFITS"
+  id: 00
+
+- section: "form"
+  title-PT: "Basta preencher o cadastro e nossa equipe entra em contato."
+  title-EN: "Just fill out the registration form and our team will contact you."
+  id: 01
+
+- section: "form"
+  title-PT: "Nome Completo "
+  title-EN: "Full Name"
+  id: 02
+
+- section: "form"
+  title-PT: "Campo Obrigatório"
+  title-EN: "Required Field"
+  id: 03
+
+- section: "form"
+  title-PT: "E-mail"
+  title-EN: "E-mail"
+  id: 04
+
+- section: "form"
+  title-PT: "Inserir um E-mail válido"
+  title-EN: "Insert a valid E-mail"
+  id: 05
+
+- section: "form"
+  title-PT: "Telefone"
+  title-EN: "Telephone"
+  id: 06
+
+- section: "form"
+  title-PT: "Inserir DDD + Telefone"
+  title-EN: "Insert Phone"
+  id: 07
+
+- section: "form"
+  title-PT: "Enviar"
+  title-EN: "Send"
+  id: 08
+
+- section: "form"
+  title-PT: "Obrigado, em breve um consultor entrará em contato."
+  title-EN: "Thank you, soon a consultant will contact you."
+  id: 09
+
+
+# Footer
+
+- section: "footer"
+  title-PT: "INCORPORADORA"
+  title-EN: "INCORPORATOR"
+  id: 00
+
+- section: "footer"
+  title-PT: "TIME PROPERTY"
+  title-EN: "TIME PROPERTY"
+  id: 01
+
+- section: "footer"
+  title-PT: "(CE) INCORPORAÇÃO IMOBILIÁRIA, S.A."
+  title-EN: "(CE) REAL STATE INCORPORATION"
+  id: 02
+
+- section: "footer"
+  title-PT: "PROMOTORA"
+  title-EN: "PROMOTION"
+  id: 03
+
+- section: "footer"
+  title-PT: "FUNDINVEST"
+  title-EN: "FUNDINVEST"
+  id: 04
+
+- section: "footer"
+  title-PT: "Investimentos"
+  title-EN: "INVESTMENTS"
+  id: 05
+
+- section: "footer"
+  title-PT: "CONTATO"
+  title-EN: "CONTACT"
+  id: 06
+
+- section: "footer"
+  title-PT: "atendimento@timeproperty.com.br <br>+ 55.85.21811413 <br>0800 800 0001<br>Av. Santos Dumont, nº 3131 - A , S. 1024 <br>Edificio Del Passeo - Bairro Aldeota <br>CEP - 60.150-162"
+  title-EN: "atendimento@timeproperty.com.br <br>+ 55.85.21811413 <br>0800 800 0001<br>Av. Santos Dumont, nº 3131 - A , S. 1024 <br>Edificio Del Passeo - Bairro Aldeota <br>CEP - 60.150-162"
+  id: 07
