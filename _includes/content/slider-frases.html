@@ -1,7 +1,7 @@
 
 <section>
-	<div class="row full-width relative">
-		<div class="row slider-frases text-center">
+	<div class="relative">
+		<div class="slider-frases text-center">
 			{% for item in site.data.content %}
 				{% if item.category == "slider-frases" %}
 					<div style="color: #fff; background: url({{ site.url }}//assets/img/1920/{{ item.file }}) center; background-size:cover;" class="full-height">
