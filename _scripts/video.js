@@ -75,3 +75,12 @@ $(window).scroll(function() {
     loadIframe('video', 'https://www.youtube.com/embed/qlxrei-wmyk?rel=0&amp;controls=0&amp;showinfo=0&enablejsapi=1')
   }
 });
+
+
+if ($(window).width() < 960) {
+  $( "#video-trigger" ).addClass("removed");
+  $("#video").addClass("watch");
+}
+else {
+  console.log('use video overlay :)')
+}
