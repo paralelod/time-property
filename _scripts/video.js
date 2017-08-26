@@ -80,7 +80,10 @@ $(window).scroll(function() {
 });
 
 
-
+if ($(window).width() < 1024) {
+  $( "#video-trigger" ).addClass("removed");
+  $("#video").addClass("watch");
+}
 
 
 $(window).on("resize", function(event){
