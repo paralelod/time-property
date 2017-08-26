@@ -73,8 +73,8 @@ $(window).scroll(function() {
   if ($(window).scrollTop() > 500) {
     if ($(window).width() > 1024) {
       $( "#video-trigger" ).removeClass("removed");
-      loadIframe('video', 'https://www.youtube.com/embed/qlxrei-wmyk?rel=0&amp;controls=0&amp;showinfo=0&enablejsapi=1')
-    }
+    }   
+    loadIframe('video', 'https://www.youtube.com/embed/qlxrei-wmyk?rel=0&amp;controls=0&amp;showinfo=0&enablejsapi=1')
   }
 });
 
