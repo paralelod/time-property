@@ -1,22 +1,37 @@
 .slick-arrow{
     position: absolute;
     top: 50%;
-    background: #000;
+    // background: #000;
+    
 }
 
 .slick-arrow:hover, .slick-arrow:focus{
     color: #000;
-    background: #fff;
+    // background: #fff;
 }
 
 .slick-next{
-    right: 0;
+    right: 7%;
+    z-index: 5;
 } 
 .slick-prev{
-    left: 0;
-    z-index: 3
+    left: 7%;
+    z-index: 5;
 } 
 
+
+@media #{$large-up} {
+    
+    .slick-next{
+        right: 20%;
+        z-index: 5;
+    } 
+    .slick-prev{
+        left: 20%;
+        z-index: 5;
+    } 
+
+}
 
 .slick-dots{
   position:absolute;
@@ -34,7 +49,7 @@
   float:left;
   width:0px;
   height:5px;
-  background:#0094ca;
+  background:#62b4c1;
   position:absolute;
   left:0px;
   bottom:0px;

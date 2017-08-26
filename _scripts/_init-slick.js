@@ -2,6 +2,8 @@
  /*
 
  */
+
+
  
  
  $('.slider-plantas').slick({
@@ -19,8 +21,8 @@
 	// centerMode: true,
 	// dots: true,
  	// asNavFor: '.slider-plantas-thumbs',
-	prevArrow: '<img src="./assets/img/button-l.png" >',
-  	nextArrow: '<div class="slick-next"><i class="i-chev-right-thin"></i><span class="sr-text">Next</span></div>',
+	prevArrow: '<img src="./assets/img/button-r.png" class="slick-prev">',
+  	nextArrow: '<img src="./assets/img/button-l.png" class="slick-next">',
 
  });
 
@@ -67,8 +69,8 @@
     cssEase:'linear',
     fade:true,
     draggable:false,
-    // prevArrow:'<button class="PrevArrow"></button>',
-    // nextArrow:'<button class="NextArrow"></button>', 
+    prevArrow: '<img src="./assets/img/button-r.png" class="slick-prev">',
+    nextArrow: '<img src="./assets/img/button-l.png" class="slick-next">',
 	 
 	// centerMode: true,
 	// dots: true,
