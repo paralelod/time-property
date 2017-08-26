@@ -3,19 +3,20 @@
 //    }); 	
 
 
-$(document).ready(function() {
-  $('#video-btn').on('click', function(ev) {
- 
-    $("#time-video")[0].src += "?autoplay=1";
-    ev.preventDefault();
- 
-  });
-});
 
-$(document).on('closed.fndtn.reveal', '[data-reveal]', function () {
+// $(document).ready(function() {
+//   $('#video-btn').on('click', function(ev) {
+ 
+//     $("#time-video")[0].src += "?autoplay=1";
+//     ev.preventDefault();
+ 
+//   });
+// });
+
+// $(document).on('closed.fndtn.reveal', '[data-reveal]', function () {
   
-  $("#time-video")[0].src += "?autoplay=0";
-});
+//   $("#time-video")[0].src += "?autoplay=0";
+// });
 
 
 
@@ -36,3 +37,41 @@ $(document).on('closed.fndtn.reveal', '[data-reveal]', function () {
 //     $('#time-video').attr('src', 'https://www.youtube.com/embed/qlxrei-wmyk')
   
 // });
+
+
+
+
+
+
+
+$( document ).ready(function() {
+  
+  $('#play-video').on('click', function(event) {
+ 
+    $( "#video-trigger" ).addClass("removed");
+
+    $("#video").addClass("watch");
+    $("#video")[0].src += "&autoplay=1";  
+    
+    event.preventDefault();
+ 
+  });
+
+});
+
+function loadIframe(iframeName, url) {
+  var $iframe = $('#' + iframeName);
+  if ( $iframe.length ) {
+      $iframe.attr('src',url);   
+      return false;
+  }
+  return true;
+}
+
+$(window).scroll(function() {
+  console.log($(window).scrollTop());
+  if ($(window).scrollTop() > 500) {
+    $( "#video-trigger" ).removeClass("removed");
+    loadIframe('video', 'https://www.youtube.com/embed/qlxrei-wmyk?rel=0&amp;controls=0&amp;showinfo=0&enablejsapi=1')
+  }
+});
