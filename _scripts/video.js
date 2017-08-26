@@ -77,10 +77,16 @@ $(window).scroll(function() {
 });
 
 
-if ($(window).width() < 960) {
-  $( "#video-trigger" ).addClass("removed");
-  $("#video").addClass("watch");
-}
-else {
-  console.log('use video overlay :)')
-}
+
+
+
+$(window).on("resize", function(event){
+  if ($(window).width() < 1024) {
+    $( "#video-trigger" ).addClass("removed");
+    $("#video").addClass("watch");
+  }
+  else {
+    $( "#video-trigger" ).removeClass("removed");
+    $("#video").removeClass("watch");
+  }
+});
