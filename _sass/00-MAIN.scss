@@ -4,13 +4,12 @@
 
 //----------- import fonts ----------//
 
-@import url('https://fonts.googleapis.com/css?family=Lato'),
-        url('https://fonts.googleapis.com/css?family=Georgia');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 //----------- theme config ----------//
 
-$theme-font-serif:'Arvo', serif; 
-$theme-font-sans-serif:'Varela Round', sans-serif; 
+$theme-font-serif:'Lato',sans-serif; 
+$theme-font-sans-serif:'Lato', sans-serif; 
 $theme-font-size: 16px;
 
 $theme-dark-color: #000;

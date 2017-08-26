@@ -70,8 +70,8 @@
   file: "box_06.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Clique para ver + fotos"
-  desc-EN: "Click to see more photos"
+  desc-PT: "Vistas privilegiadas"
+  desc-EN: "Privileged view"
 
 # column item
 - category: "galeria-tp"
@@ -82,7 +82,7 @@
   file: "box_07.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Café da manhã incluído &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
+  desc-PT: "Café da manhã incluído"
   desc-EN: "Breakfast included"
 
 # column item
@@ -349,7 +349,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Propriedade de 10 anos, sem adendos no preço por conservação ou beneficiação."
-  desc-EN: "Property for 10 years, no extra costs or charges"
+  desc-EN: "Property for 10 years, no extra costs or charges."
 
   # column item
 - category: "beneficios"
@@ -360,7 +360,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Escolha as semana de sua preferência."
-  desc-EN: "Choose the weeks you prefer"
+  desc-EN: "Choose the weeks you prefer."
 
   # column item
 - category: "beneficios"
@@ -371,7 +371,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Não se preocupe, caso não possa utilizar suas datas, haverá uma compensação."
-  desc-EN: "Don’t worry, in case you cannot use your dates, ther Will be a compensation."
+  desc-EN: "Don’t worry, in case you cannot use your dates, there will be a compensation."
 
   # column item
 - category: "beneficios"
@@ -414,8 +414,8 @@
   file: "beneficios-08.jpg"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Condomínio fechado, com segurança 24h. "
-  desc-EN: "Gated community with 24h security"
+  desc-PT: "Condomínio fechado, com segurança 24h."
+  desc-EN: "Gated community with 24h security."
 
 # ------- SEJA MEMBRO -------- #
 
