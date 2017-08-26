@@ -9,6 +9,10 @@
   // max-height: 50%;
 }
 
+#videoModal {
+  top: 5rem;
+}
+
 .reveal-modal .close-reveal-modal {
     color: #AAAAAA;
     cursor: pointer;
@@ -38,5 +42,6 @@
 @media only screen and (max-width: 40em){
 .reveal-modal {
     min-height: auto;
+    top: 50%;
 }
   }
