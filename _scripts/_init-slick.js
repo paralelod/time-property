@@ -21,8 +21,10 @@
 	// centerMode: true,
 	// dots: true,
  	// asNavFor: '.slider-plantas-thumbs',
-	prevArrow: '<img src="./assets/img/button-r.png" class="slick-prev">',
-  	nextArrow: '<img src="./assets/img/button-l.png" class="slick-next">',
+	// prevArrow: '<img src="./assets/img/button-r.png" class="slick-prev v-center">',
+    // nextArrow: '<img src="./assets/img/button-l.png" class="slick-next v-center">',
+    prevArrow: '<img src="http://timeproperty.web1605.kinghost.net//assets/img/button-r.png" class="slick-prev v-center">',
+    nextArrow: '<img src="http://timeproperty.web1605.kinghost.net//assets/img/button-l.png" class="slick-next v-center">',  
 
  });
 

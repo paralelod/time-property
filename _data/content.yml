@@ -13,8 +13,8 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Apartamentos de 80 m2"
-  desc-EN: "80 m2 Apartments"
+  desc-PT: "Apartamentos de 80 m2 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
+  desc-EN: "80 m2 Apartments &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
 
 # column item
 - category: "galeria-tp"
@@ -26,8 +26,8 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Apartamentos de 140 m2"
-  desc-EN: "140 m2 Apartments"
+  desc-PT: "Apartamentos de 140 m2 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
+  desc-EN: "140 m2 Apartments &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
 
 # column item
 - category: "galeria-tp"
@@ -39,8 +39,8 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Apartamentos luxuosos, padrão A "
-  desc-EN: "Luxury apartments, standard A"
+  desc-PT: "Apartamentos luxuosos, padrão A &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
+  desc-EN: "Luxury apartments, standard A &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
 
 # column item
 - category: "galeria-tp"
@@ -52,7 +52,7 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Sofisticação e conforto garantidos"
+  desc-PT: "Sofisticação e conforto garantidos &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
   desc-EN: "Sophistication and comfort guaranteed"
 
 # column item
@@ -65,8 +65,8 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Apartamentos mobiliados"
-  desc-EN: "Furnished apartments"
+  desc-PT: "Apartamentos mobiliados &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
+  desc-EN: "Furnished apartments &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
 
 # column item
 - category: "galeria-tp"
@@ -78,8 +78,8 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Vistas privilegiadas"
-  desc-EN: "Privileged view"
+  desc-PT: "Vistas privilegiadas &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
+  desc-EN: "Privileged view &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
 
 # column item
 - category: "galeria-tp"
@@ -91,8 +91,8 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Café da manhã incluído"
-  desc-EN: "Breakfast included"
+  desc-PT: "Café da manhã incluído &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
+  desc-EN: "Breakfast included &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
 
 # column item
 - category: "galeria-tp"
@@ -104,7 +104,7 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Bar e restaurante com serviço na praia"
+  desc-PT: "Bar e restaurante com serviço na praia &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
   desc-EN: "Bar and restaurant with service on the beach"
 
 # column item
@@ -144,7 +144,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Segurança 24h &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
-  desc-EN: "24h Security"
+  desc-EN: "24h Security &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
 
 # column item
 - category: "galeria-tp"
@@ -157,7 +157,7 @@
   max-wid: 1920
   break-point: "1040, 1024"
   desc-PT: "Wi-fi em todos os apartamentos &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
-  desc-EN: "Wi-fi in all apartments"
+  desc-EN: "Wi-fi in all apartments &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
 
 # column item
 - category: "galeria-tp"
@@ -169,7 +169,7 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Piscina e Jacuzzi"
+  desc-PT: "Piscina e Jacuzzi &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
   desc-EN: "Pool and Jacuzzi"
 
 # column item
@@ -182,7 +182,7 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Lounge"
+  desc-PT: "Lounge &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
   desc-EN: "Lounge"
 
 # column item
@@ -195,7 +195,7 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Academia e Fitness Class"
+  desc-PT: "Academia e Fitness Class &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
   desc-EN: "Gym and Fitness Class"
 
 # column item
@@ -208,7 +208,7 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Tendas de Massagem"
+  desc-PT: "Tendas de Massagem &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
   desc-EN: "Massage Tents"
 
 # column item
@@ -221,7 +221,7 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Aula de culinária"
+  desc-PT: "Aula de culinária &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
   desc-EN: "Cooking classes"
 
 # column item
@@ -234,7 +234,7 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Degustação de vinhos e cervejas artesanais"
+  desc-PT: "Degustação de vinhos e cervejas artesanais &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
   desc-EN: "Wine and craft beer tasting"
 
 # column item
@@ -260,7 +260,7 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Aluguel de carros e bicicletas"
+  desc-PT: "Aluguel de carros e bicicletas &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp"
   desc-EN: "Car and bicycle rental"
 
 # column item
@@ -273,7 +273,7 @@
   ratio: "16-9"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Passeios de Buggy"
+  desc-PT: "Passeios de Buggy &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;"
   desc-EN: "Buggy rides"
 
 
