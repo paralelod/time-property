@@ -30,7 +30,7 @@
             <dl class="accordion" data-accordion>
 
                 <dd class="accordion-navigation">
-                    <a href="#panel1" class="show-for-small-only">
+                    <a href="#panel1" class="show-for-small-only accord-section">
                         {% include lang/string-loop.html section="galeria-tabs" id= 01 %}
                     </a>
                     <div id="panel1" class="content active">
@@ -42,7 +42,9 @@
                             {% endfor %}
                         </ul>
                     </div>
-                    <a href="#panel2" class="show-for-small-only">
+                </dd>
+                <dd  class="accordion-navigation">
+                    <a href="#panel2" class="show-for-small-only accord-section">
                         {% include lang/string-loop.html section="galeria-tabs" id= 02 %}
                     </a>
                     <div id="panel2" class="content" data-equalizer="gal">
@@ -54,7 +56,9 @@
                             {% endfor %}
                         </ul>
                     </div>
-                    <a href="#panel3" class="show-for-small-only">
+                </dd>
+                <dd  class="accordion-navigation"> 
+                    <a href="#panel3" class="show-for-small-only accord-section">
                         {% include lang/string-loop.html section="galeria-tabs" id= 03 %}
                     </a>
                     <div id="panel3" class="content" >
