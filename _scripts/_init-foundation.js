@@ -1,5 +1,8 @@
 //foundation init
   $(document).foundation();
+  console.log('INIT - foundation5');
+
+  
   // $(document).foundation('abide','events');
 
 //   document.addEventListener("DOMContentLoaded", function() {
@@ -58,4 +61,4 @@ setTimeout(function() {
   });*/
 
 
-  console.log('INIT - foundation5');
+  

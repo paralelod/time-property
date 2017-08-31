@@ -1,6 +1,6 @@
 <section id="exp" class="bg-azulado" style="padding-top:3rem; padding-bottom:1rem;">
     <div class="row">
-        <div class="small-12 text-center">
+        <div class="small-12 text-center" data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="600">
             <h2>
                 {% include lang/string-loop.html section="galeria-tabs" id= 00 %}
             </h2>
@@ -10,7 +10,7 @@
 <section class="bg-praia" style="padding-bottom:13rem; padding-top:1rem;">
     <div class="row">
         <div class="small-12 columns">
-            <div class="show-for-medium-up text-center" data-tab style="margin-bottom:1.5rem;">
+            <div class="show-for-medium-up text-center" data-tab style="margin-bottom:3rem;">
                 <span class="tab-title active">
                     <a href="#panel1" class="btn-galeria" style="padding:0.75rem 1.5rem !important;">
                         {% include lang/string-loop.html section="galeria-tabs" id= 01 %}
@@ -30,7 +30,7 @@
             <dl class="accordion" data-accordion>
 
                 <dd class="accordion-navigation">
-                    <a href="#panel1" class="show-for-small-only accord-section">
+                    <a href="#panel1" class="show-for-small-only">
                         {% include lang/string-loop.html section="galeria-tabs" id= 01 %}
                     </a>
                     <div id="panel1" class="content active">
@@ -42,9 +42,7 @@
                             {% endfor %}
                         </ul>
                     </div>
-                </dd>
-                <dd  class="accordion-navigation">
-                    <a href="#panel2" class="show-for-small-only accord-section">
+                    <a href="#panel2" class="show-for-small-only">
                         {% include lang/string-loop.html section="galeria-tabs" id= 02 %}
                     </a>
                     <div id="panel2" class="content" data-equalizer="gal">
@@ -56,9 +54,7 @@
                             {% endfor %}
                         </ul>
                     </div>
-                </dd>
-                <dd  class="accordion-navigation"> 
-                    <a href="#panel3" class="show-for-small-only accord-section">
+                    <a href="#panel3" class="show-for-small-only">
                         {% include lang/string-loop.html section="galeria-tabs" id= 03 %}
                     </a>
                     <div id="panel3" class="content" >
