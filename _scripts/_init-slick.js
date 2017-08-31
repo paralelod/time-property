@@ -72,7 +72,7 @@
     fade:true,
     draggable:false,
     prevArrow: '<img src="http://www.timepropertyclub.com/assets/img/button-r.png" class="slick-prev">',
-    nextArrow: '<img src="http://www.timepropertyclub.com/assets/img/button-r.png" class="slick-next">',
+    nextArrow: '<img src="http://www.timepropertyclub.com/assets/img/button-l.png" class="slick-next">',
 	 
 	// centerMode: true,
 	// dots: true,
