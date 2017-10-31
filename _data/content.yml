@@ -338,12 +338,12 @@
   break-point: "1040, 1024"
   title-PT: "E COM UMA NATUREZA PERFEITA."
   desc-PT: ". Verão o ano inteiro<br>
-            . Praias com águas quentes e cristalinas.<br>
+            . Praias paradisíacas<br>
             . Cercado pelo Rio Jaguaribe, com mais de 35 Km navegáveis.<br>
             . Ecossistema perfeito para descansar, passear ou praticar esportes náuticos."
   title-EN: "AND WITH A PERFECT NATURE"
   desc-EN: ". It’s summmer all year round.<br>
-            . Beaches with warm, crystal clear waters<br>
+            . Paradisiac beaches<br>
             . Surrounded by the Jaguaribe River, with more than 35 navigable kilometers.<br>
             . A perfect ecosystem for resting, strolling or playing water sports."
 
@@ -477,8 +477,8 @@
   ratio: "1-1"
   max-wid: 1920
   break-point: "1040, 1024"
-  desc-PT: "Não se preocupe, caso não possa utilizar suas datas, haverá uma compensação."
-  desc-EN: "Don’t worry, in case you cannot use your dates, there will be a compensation."
+  desc-PT: "Não se preocupe, caso não possa utilizar suas datas, encontraremos uma solução."
+  desc-EN: "Don’t worry, in case you cannot use your dates, we will find a solution"
 
   # column item
 - category: "beneficios"

@@ -1,18 +1,9 @@
- <!-- 
-     
-    SITE MAIN LOOP
-    
-    category
-    description (PT , EN)
-    file name
-
- -->
 {% capture description-content %}
     {% include lang/content-desc.html %}
 {% endcapture %}
 {% capture file-name %}{{ item.file }}{% endcapture %}
-    {% include utils/grid-list-block.html 
+{% include utils/grid-list-block.html 
     file= file-name 
     description= description-content 
-    class="full-width"
+    class="full-width" 
 %}
