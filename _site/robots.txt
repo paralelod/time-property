@@ -1,1 +1,1 @@
-Sitemap: http://lab.diogorusso.com/time-property/sitemap.xml
+Sitemap: https://lab.diogorusso.com/time-property/sitemap.xml
